@@ -26,7 +26,7 @@ In the `change_simulation_config.py` python script, a user can configure changes
 This allows for automation in running many different simulations, each saved to their own output directory.
 
 ## Results Visualisation
-Using the `plot_tripinfo_distributions.py` script a user can plot the TripInfo results as compaitive distribution between simulation scenarios, instructions can be found in the [SUMO visualisation documentation](https://sumo.dlr.de/docs/Tools/Visualization.html#plot_tripinfo_distributionspy).
+Using the `plot_tripinfo_distributions.py` script, or any others available in the SUMO visualisation documentation, a user can plot the TripInfo results as compaitive distribution between simulation scenarios, instructions can be found in the [SUMO visualisation documentation](https://sumo.dlr.de/docs/Tools/Visualization.html#plot_tripinfo_distributionspy).
 ![tripinfo_distribution_wait](https://user-images.githubusercontent.com/30498489/118028937-8f269b80-b35b-11eb-98f7-4768ee83e2ea.png)
 
 The command used to generate the Figure above is as follows.
