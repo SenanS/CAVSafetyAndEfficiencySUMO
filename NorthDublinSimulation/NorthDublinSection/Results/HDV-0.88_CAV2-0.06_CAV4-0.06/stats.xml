@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 05/07/21 18:11:05 by Eclipse SUMO GUI Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="osm_pt.rou.xml,osm.passenger.trips.xml,osm.truck.trips.xml,osm.bus.trips.xml,osm.motorcycle.trips.xml,osm.bicycle.trips.xml,osm.pedestrian.rou.xml,osm.tram.trips.xml"/>
+        <additional-files value="osm.poly.xml,osm_stops.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfo12.xml"/>
+        <statistic-output value="Results/HDV-0.88_CAV2-0.06_CAV4-0.06/stats.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <step-length value="0.5"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="osm.view.xml"/>
+        <quit-on-end value="true"/>
+        <start value="true"/>
+        <tracker-interval value="0.5"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <vehicles loaded="2421" inserted="2338" running="270" waiting="17"/>
+    <teleports total="12" jam="2" yield="6" wrongLane="4"/>
+    <safety collisions="0" emergencyStops="0"/>
+    <persons loaded="861" running="157" jammed="21"/>
+    <vehicleTripStatistics routeLength="1235.53" speed="4.90" duration="296.34" waitingTime="95.30" timeLoss="148.48" departDelay="3.85" departDelayWaiting="-1"/>
+    <pedestrianStatistics number="878" routeLength="489.44" duration="427.37" timeLoss="70.60"/>
+    <rideStatistics number="153" waitingTime="154.22" routeLength="761.36" duration="149.85" bus="64" train="89" taxi="0" bike="0" aborted="0"/>
+    <transportStatistics number="0"/>
+</statistics>

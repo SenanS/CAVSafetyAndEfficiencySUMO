@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 03/07/21 13:23:59 by Eclipse SUMO duarouter Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Program%20Files%20(x86)\Eclipse\Sumo\tools\2021-03-07-13-23-46\osm.net.xml"/>
+        <route-files value="C:\Program%20Files%20(x86)\Eclipse\Sumo\tools\2021-03-07-13-23-46\osm.tram.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Program%20Files%20(x86)\Eclipse\Sumo\tools\2021-03-07-13-23-46\osm.tram.trips.xml.tmp"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="tram_tram" vClass="tram">
+        <param key="has.ssm.device" value="true"/>
+        <param key="device.ssm.file" value="ssm_north_tram.xml" />
+        <param key="device.ssm.probability" value="1"/>
+        <param key="device.ssm.deterministic" value="True"/>
+        <param key="device.ssm.measures" value="TTC PET"/>
+        <param key="device.ssm.thresholds"  value="1.5 2"/>
+        <param key="device.ssm.range" value="20"/>
+        <param key="device.ssm.extratime" value="0.5"/>
+        <param key="device.ssm.trajectories" value="False"/>
+        <param key="device.ssm.geo" value="True"/>
+        <param key="has.tripinfo.device" value="true"/>
+        <param key="device.tripinfo.probability" value="true"/>
+    </vType>
+    <trip id="tram0" type="tram_tram" depart="0.00" departLane="best" departSpeed="max" from="317127413#0" to="338055464#21"/>
+    <trip id="tram1" type="tram_tram" depart="324.98" departLane="best" departSpeed="max" from="317127413#0" to="338055464#16"/>
+    <trip id="tram2" type="tram_tram" depart="649.96" departLane="best" from="352511043#12" to="352511043#28"/>
+    <trip id="tram4" type="tram_tram" depart="1299.92" departLane="best" departSpeed="max" from="317127413#0" to="338055464#21"/>
+</routes>

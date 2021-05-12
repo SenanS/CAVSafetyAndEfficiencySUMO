@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 05/07/21 16:12:46 by Eclipse SUMO GUI Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="osm_pt.rou.xml,osm.passenger.trips.xml,osm.truck.trips.xml,osm.bus.trips.xml,osm.motorcycle.trips.xml,osm.bicycle.trips.xml,osm.pedestrian.rou.xml,osm.tram.trips.xml"/>
+        <additional-files value="osm.poly.xml,osm_stops.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="Results/HDV-85_CAV2-14_CAV4-1/tripinfo.xml"/>
+        <statistic-output value="Results/HDV-85_CAV2-14_CAV4-1/stats.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <step-length value="0.5"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="osm.view.xml"/>
+        <quit-on-end value="true"/>
+        <start value="true"/>
+        <tracker-interval value="0.5"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<SSMLog>
+    <conflict begin="692.50" end="700.50" ego="tram2" foe="truck76">
+        <minTTC time="694.00" position="-6.280190,53.347284" type="12" value="0.21"/>
+        <PET time="693.91" position="-6.280190,53.347284" type="111" value="0.00"/>
+    </conflict>
+    <conflict begin="733.00" end="742.50" ego="tram2" foe="bus52">
+        <minTTC time="736.50" position="-6.282428,53.347396" type="12" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="733.00" end="742.50" ego="tram2" foe="veh143">
+        <minTTC time="735.50" position="-6.282326,53.347407" type="12" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1352.00" end="1361.50" ego="tram4" foe="bike183">
+        <minTTC time="1355.00" position="-6.282316,53.347437" type="10" value="1.23"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1367.00" end="1371.50" ego="tram4" foe="moto96">
+        <minTTC time="1370.00" position="-6.280159,53.347219" type="12" value="0.08"/>
+        <PET time="1368.64" position="-6.280159,53.347219" type="111" value="0.00"/>
+    </conflict>
+    <conflict begin="1426.50" end="1434.50" ego="tram4" foe="bike200">
+        <minTTC time="1430.50" position="-6.267428,53.347360" type="12" value="0.38"/>
+        <PET time="1430.12" position="-6.267428,53.347360" type="111" value="0.00"/>
+    </conflict>
+</SSMLog>

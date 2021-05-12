@@ -1,0 +1,3316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 05/07/21 18:05:36 by Eclipse SUMO GUI Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="osm_pt.rou.xml,osm.passenger.trips.xml,osm.truck.trips.xml,osm.bus.trips.xml,osm.motorcycle.trips.xml,osm.bicycle.trips.xml,osm.pedestrian.rou.xml,osm.tram.trips.xml"/>
+        <additional-files value="osm.poly.xml,osm_stops.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfo1.xml"/>
+        <statistic-output value="Results/HDV-0.99_CAV2-0.005_CAV4-0.005/stats.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <step-length value="0.5"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="osm.view.xml"/>
+        <quit-on-end value="true"/>
+        <start value="true"/>
+        <tracker-interval value="0.5"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<SSMLog>
+    <conflict begin="103.00" end="117.00" ego="veh1" foe="pt_bus_39a:0.0">
+        <minTTC time="104.50" position="-6.269263,53.345183" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="90.00" end="95.50" ego="veh18" foe="veh6">
+        <minTTC time="91.50" position="-6.282340,53.347364" type="6" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="82.00" end="119.50" ego="veh14" foe="truck10">
+        <minTTC time="84.50" position="-6.273883,53.350138" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="112.50" end="127.00" ego="veh5" foe="pt_bus_39:0.0">
+        <minTTC time="113.00" position="-6.281830,53.350407" type="2" value="1.27"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="90.00" end="95.50" ego="veh6" foe="veh18">
+        <minTTC time="91.50" position="-6.282340,53.347364" type="7" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="93.00" end="120.00" ego="veh6" foe="bus3">
+        <minTTC time="97.50" position="-6.282316,53.347436" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="112.50" end="132.50" ego="veh5" foe="veh13">
+        <minTTC time="116.00" position="-6.281812,53.350357" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="112.50" end="134.00" ego="veh13" foe="veh5">
+        <minTTC time="116.00" position="-6.281812,53.350357" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="121.50" end="167.00" ego="veh16" foe="truck2">
+        <minTTC time="124.00" position="-6.273883,53.350138" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="136.00" end="191.00" ego="veh24" foe="moto10">
+        <minTTC time="144.00" position="-6.265016,53.345568" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="169.00" end="192.50" ego="veh31" foe="bus7">
+        <minTTC time="174.50" position="-6.274175,53.350469" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="190.00" end="198.00" ego="veh34" foe="moto4">
+        <minTTC time="190.00" position="-6.280485,53.346666" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="210.50" end="213.50" ego="veh31" foe="veh45">
+        <minTTC time="210.50" position="-6.270604,53.350695" type="11" value="1.37"/>
+        <PET time="212.62" position="-6.270604,53.350695" type="17" value="0.27"/>
+    </conflict>
+    <conflict begin="211.00" end="214.50" ego="veh45" foe="veh31">
+        <minTTC time="NA" position="NA" type="NA" value="NA"/>
+        <PET time="212.62" position="-6.270604,53.350695" type="17" value="0.27"/>
+    </conflict>
+    <conflict begin="137.00" end="219.00" ego="veh29" foe="bike5">
+        <minTTC time="177.00" position="-6.273883,53.350138" type="3" value="0.96"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="205.50" end="230.00" ego="veh33" foe="bike28">
+        <minTTC time="207.50" position="-6.274577,53.350106" type="11" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="227.00" end="233.00" ego="veh42" foe="pt_bus_39a:1.0">
+        <minTTC time="230.50" position="-6.281857,53.350427" type="13" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="222.00" end="242.00" ego="veh37" foe="bike11">
+        <minTTC time="230.00" position="-6.274175,53.350469" type="3" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="215.50" end="246.50" ego="veh15" foe="moto6">
+        <minTTC time="217.00" position="-6.274697,53.350733" type="3" value="1.06"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="241.00" end="259.50" ego="veh35" foe="veh28">
+        <minTTC time="246.00" position="-6.274530,53.350107" type="11" value="0.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="243.00" end="260.00" ego="veh41" foe="bike31">
+        <minTTC time="247.50" position="-6.282050,53.350346" type="3" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="233.00" end="261.00" ego="veh24" foe="bus6">
+        <minTTC time="237.00" position="-6.275649,53.345279" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="223.00" end="267.50" ego="veh12" foe="bike10">
+        <minTTC time="227.00" position="-6.275086,53.345195" type="3" value="0.95"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="226.50" end="269.00" ego="veh36" foe="bike17">
+        <minTTC time="256.50" position="-6.281759,53.350209" type="3" value="1.11"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="284.50" end="289.00" ego="veh54" foe="bike9">
+        <minTTC time="286.50" position="-6.282449,53.350973" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="285.50" end="291.50" ego="veh64" foe="veh47">
+        <minTTC time="287.00" position="-6.275823,53.345313" type="11" value="0.87"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="285.50" end="292.50" ego="veh64" foe="pt_bus_37:0.0">
+        <minTTC time="286.50" position="-6.275837,53.345285" type="11" value="1.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="264.00" end="297.00" ego="veh52" foe="moto17">
+        <minTTC time="265.00" position="-6.274563,53.350730" type="3" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="290.00" end="301.00" ego="veh13" foe="moto13">
+        <minTTC time="292.00" position="-6.267592,53.345407" type="3" value="1.03"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="297.00" end="306.00" ego="veh54" foe="bike9">
+        <minTTC time="301.00" position="-6.281911,53.350553" type="3" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="285.50" end="313.00" ego="veh64" foe="pt_bus_25:0.0">
+        <minTTC time="287.00" position="-6.275837,53.345285" type="11" value="1.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="222.00" end="319.00" ego="veh45" foe="truck15">
+        <minTTC time="224.50" position="-6.272668,53.350172" type="2" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="301.50" end="323.00" ego="veh26" foe="truck29">
+        <minTTC time="305.00" position="-6.282332,53.347388" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="318.00" end="335.50" ego="veh38" foe="bus21">
+        <minTTC time="323.50" position="-6.281719,53.350096" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="321.00" end="337.00" ego="veh36" foe="truck25">
+        <minTTC time="322.50" position="-6.279762,53.348573" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="305.00" end="348.00" ego="veh42" foe="bike23">
+        <minTTC time="309.50" position="-6.274586,53.350731" type="3" value="1.02"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="267.50" end="357.00" ego="veh34" foe="bus4">
+        <minTTC time="270.00" position="-6.277274,53.345552" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="273.50" end="366.00" ego="veh12" foe="bike10">
+        <minTTC time="321.50" position="-6.277412,53.345579" type="3" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="295.00" end="363.50" ego="veh29" foe="pt_bus_37:0.0">
+        <minTTC time="296.50" position="-6.276472,53.345392" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="360.00" end="375.50" ego="veh36" foe="truck25">
+        <minTTC time="362.00" position="-6.280229,53.346769" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="346.00" end="358.50" ego="veh47" foe="bike33">
+        <minTTC time="348.00" position="-6.274577,53.350106" type="11" value="1.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="346.00" end="360.50" ego="veh47" foe="bus15">
+        <minTTC time="348.50" position="-6.274581,53.350098" type="11" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="362.00" end="367.00" ego="veh47" foe="bus8">
+        <minTTC time="362.00" position="-6.274317,53.350712" type="11" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="397.50" end="412.00" ego="veh80" foe="truck56">
+        <minTTC time="399.50" position="-6.275708,53.345688" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="416.00" end="420.50" ego="veh85" foe="truck4">
+        <minTTC time="418.00" position="-6.284066,53.347024" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="365.50" end="421.00" ego="veh62" foe="pt_bus_79:0.0">
+        <minTTC time="367.50" position="-6.267425,53.345333" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="412.50" end="421.50" ego="veh60" foe="bus28">
+        <minTTC time="419.00" position="-6.280349,53.346655" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="391.50" end="425.00" ego="veh79" foe="truck54">
+        <minTTC time="393.50" position="-6.279331,53.349809" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="411.00" end="433.50" ego="veh70" foe="truck38">
+        <minTTC time="412.50" position="-6.275838,53.345284" type="11" value="1.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="347.00" end="438.50" ego="veh66" foe="moto22">
+        <minTTC time="411.00" position="-6.275139,53.346915" type="3" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="435.50" end="448.50" ego="veh84" foe="bus15">
+        <minTTC time="437.00" position="-6.279858,53.348581" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="439.00" end="457.00" ego="veh81" foe="bus19">
+        <minTTC time="457.00" position="-6.274520,53.350178" type="13" value="0.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="362.50" end="461.50" ego="veh41" foe="bike31">
+        <minTTC time="421.50" position="-6.274175,53.350469" type="3" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="430.00" end="464.00" ego="veh87" foe="moto28">
+        <minTTC time="439.00" position="-6.279739,53.349762" type="3" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="438.50" end="470.50" ego="veh79" foe="moto25">
+        <minTTC time="440.00" position="-6.281201,53.348598" type="3" value="1.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="271.00" end="472.00" ego="veh39" foe="pt_bus_39a:0.0">
+        <minTTC time="273.00" position="-6.275227,53.345206" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="442.50" end="474.50" ego="veh92" foe="truck61">
+        <minTTC time="444.00" position="-6.266815,53.350158" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="461.50" end="478.50" ego="veh64" foe="bus2">
+        <minTTC time="464.50" position="-6.282471,53.346326" type="3" value="1.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="449.50" end="475.50" ego="veh101" foe="bike59">
+        <minTTC time="454.00" position="-6.266582,53.350222" type="3" value="0.87"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="479.50" end="486.00" ego="veh108" foe="bus18">
+        <minTTC time="484.50" position="-6.270018,53.346340" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="483.50" end="495.50" ego="veh77" foe="bus25">
+        <minTTC time="485.00" position="-6.275918,53.345865" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="510.50" end="513.00" ego="veh100" foe="veh112">
+        <minTTC time="511.50" position="-6.274762,53.347998" type="11" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="510.50" end="513.00" ego="veh112" foe="veh100">
+        <minTTC time="511.50" position="-6.274762,53.347998" type="10" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="421.50" end="516.00" ego="veh82" foe="truck29">
+        <minTTC time="423.50" position="-6.274699,53.349655" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="462.00" end="516.50" ego="veh98" foe="bike58">
+        <minTTC time="489.50" position="-6.274172,53.350558" type="3" value="1.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="455.00" end="521.00" ego="veh65" foe="bike54">
+        <minTTC time="471.50" position="-6.274175,53.350469" type="3" value="0.95"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="518.00" end="525.00" ego="veh72" foe="veh94">
+        <minTTC time="520.00" position="-6.277711,53.350542" type="11" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="516.00" end="528.50" ego="veh96" foe="bus30">
+        <minTTC time="526.00" position="-6.275097,53.347028" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="436.00" end="531.50" ego="veh63" foe="bike34">
+        <minTTC time="440.00" position="-6.274253,53.349839" type="3" value="0.97"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="537.00" end="545.00" ego="veh101" foe="bike71">
+        <minTTC time="539.50" position="-6.272197,53.348083" type="11" value="2.55"/>
+        <PET time="543.75" position="-6.272212,53.348092" type="17" value="0.89"/>
+    </conflict>
+    <conflict begin="547.50" end="550.50" ego="veh63" foe="truck59">
+        <minTTC time="550.50" position="-6.274770,53.348036" type="13" value="0.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="549.00" end="553.00" ego="veh58" foe="truck79">
+        <minTTC time="551.50" position="-6.281833,53.350398" type="13" value="0.56"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="524.50" end="559.00" ego="veh44" foe="truck66">
+        <minTTC time="526.50" position="-6.280216,53.346087" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="490.50" end="566.00" ego="veh95" foe="bike65">
+        <minTTC time="518.00" position="-6.274495,53.350729" type="3" value="0.90"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="551.00" end="566.00" ego="veh103" foe="bus34">
+        <minTTC time="552.50" position="-6.271945,53.345028" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="558.00" end="570.00" ego="veh112" foe="pt_bus_25B:0.0">
+        <minTTC time="559.00" position="-6.275837,53.345285" type="11" value="1.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="532.00" end="591.00" ego="veh120" foe="truck40">
+        <minTTC time="534.00" position="-6.281201,53.348598" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="590.00" end="593.50" ego="veh44" foe="bus44">
+        <minTTC time="593.00" position="-6.282172,53.347911" type="13" value="0.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="594.00" end="604.00" ego="veh135" foe="veh124">
+        <minTTC time="598.00" position="-6.276888,53.349730" type="2" value="0.94"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="594.00" end="607.00" ego="veh124" foe="veh135">
+        <minTTC time="598.00" position="-6.276888,53.349730" type="3" value="0.94"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="586.00" end="609.50" ego="veh116" foe="bus42">
+        <minTTC time="587.50" position="-6.272912,53.350144" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="558.00" end="617.50" ego="veh112" foe="pt_bus_145:1.0">
+        <minTTC time="559.00" position="-6.275837,53.345285" type="11" value="1.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="514.00" end="623.00" ego="veh113" foe="truck76">
+        <minTTC time="518.00" position="-6.273883,53.350138" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="452.00" end="635.00" ego="veh80" foe="truck56">
+        <minTTC time="454.00" position="-6.274739,53.349087" type="3" value="1.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="628.00" end="645.00" ego="veh121" foe="truck85">
+        <minTTC time="637.00" position="-6.271945,53.345028" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="611.00" end="655.50" ego="veh128" foe="truck70">
+        <minTTC time="614.50" position="-6.273605,53.349754" type="3" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="640.50" end="657.50" ego="veh129" foe="moto48">
+        <minTTC time="640.50" position="-6.281729,53.350125" type="3" value="1.21"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="663.50" end="677.50" ego="veh123" foe="truck81">
+        <minTTC time="665.00" position="-6.274317,53.350712" type="11" value="1.18"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="602.50" end="682.50" ego="veh116" foe="bus27">
+        <minTTC time="639.50" position="-6.274684,53.349837" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="609.50" end="632.00" ego="veh116" foe="truck56">
+        <minTTC time="611.50" position="-6.274655,53.349923" type="2" value="1.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="547.00" end="684.00" ego="veh117" foe="bus27">
+        <minTTC time="640.00" position="-6.274621,53.350006" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="633.00" end="656.00" ego="veh117" foe="bus42">
+        <minTTC time="637.00" position="-6.274581,53.350098" type="11" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="559.50" end="642.00" ego="veh62" foe="truck59">
+        <minTTC time="560.50" position="-6.274741,53.349020" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="688.00" end="690.50" ego="veh133" foe="veh86">
+        <minTTC time="689.00" position="-6.274530,53.350107" type="10" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="685.50" end="690.50" ego="veh86" foe="veh133">
+        <minTTC time="689.00" position="-6.274530,53.350107" type="11" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="480.00" end="700.00" ego="veh93" foe="moto35">
+        <minTTC time="481.50" position="-6.273473,53.350117" type="3" value="1.29"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="701.00" end="703.50" ego="veh129" foe="tram2">
+        <minTTC time="703.50" position="-6.280120,53.347180" type="13" value="1.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="686.00" end="707.00" ego="veh142" foe="pt_bus_25A:0.1">
+        <minTTC time="687.50" position="-6.267425,53.345333" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="693.50" end="718.00" ego="veh143" foe="bike83">
+        <minTTC time="706.00" position="-6.282430,53.347068" type="3" value="0.95"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="713.50" end="720.00" ego="veh160" foe="bus46">
+        <minTTC time="716.50" position="-6.277522,53.349773" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="699.00" end="721.00" ego="veh86" foe="truck102">
+        <minTTC time="701.00" position="-6.272454,53.350286" type="13" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="649.00" end="723.50" ego="veh140" foe="bike81">
+        <minTTC time="676.00" position="-6.273409,53.350118" type="3" value="1.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="641.50" end="742.00" ego="veh113" foe="truck53">
+        <minTTC time="644.50" position="-6.280243,53.348511" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="610.50" end="748.50" ego="veh114" foe="truck63">
+        <minTTC time="612.50" position="-6.274741,53.349001" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="652.00" end="758.00" ego="veh103" foe="bus34">
+        <minTTC time="711.50" position="-6.274693,53.349738" type="3" value="1.38"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="728.50" end="742.00" ego="veh152" foe="moto54">
+        <minTTC time="729.50" position="-6.267123,53.349911" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="631.00" end="777.00" ego="veh95" foe="truck74">
+        <minTTC time="668.50" position="-6.279858,53.348581" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="769.00" end="777.50" ego="veh118" foe="bike99">
+        <minTTC time="770.50" position="-6.281828,53.350405" type="11" value="0.65"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="729.50" end="794.50" ego="veh147" foe="bike76">
+        <minTTC time="740.00" position="-6.273409,53.350118" type="3" value="1.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="793.50" end="797.50" ego="veh113" foe="truck116">
+        <minTTC time="794.00" position="-6.282406,53.350943" type="7" value="1.14"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="793.00" end="805.50" ego="veh181" foe="bus55">
+        <minTTC time="798.00" position="-6.269522,53.349384" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="798.00" end="830.50" ego="veh152" foe="truck86">
+        <minTTC time="799.50" position="-6.272912,53.350144" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="832.50" end="838.50" ego="veh189" foe="veh154">
+        <minTTC time="833.50" position="-6.275669,53.345771" type="11" value="1.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="818.50" end="839.50" ego="veh142" foe="truck105">
+        <minTTC time="831.00" position="-6.272475,53.349841" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="824.00" end="841.00" ego="veh184" foe="truck123">
+        <minTTC time="825.50" position="-6.282153,53.350781" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="823.50" end="842.50" ego="veh152" foe="moto56">
+        <minTTC time="830.50" position="-6.273653,53.350138" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="569.50" end="613.50" ego="veh112" foe="truck60">
+        <minTTC time="610.00" position="-6.275936,53.345185" type="13" value="0.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="837.00" end="847.00" ego="veh159" foe="moto56">
+        <minTTC time="842.00" position="-6.273633,53.350136" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="846.50" end="850.50" ego="veh181" foe="veh191">
+        <minTTC time="NA" position="NA" type="NA" value="NA"/>
+        <PET time="849.21" position="-6.269853,53.351376" type="17" value="0.86"/>
+    </conflict>
+    <conflict begin="841.00" end="852.00" ego="veh154" foe="pt_bus_25A:0.1">
+        <minTTC time="842.50" position="-6.275837,53.345285" type="11" value="1.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="852.50" end="858.00" ego="veh175" foe="bus59">
+        <minTTC time="854.50" position="-6.272251,53.345572" type="11" value="1.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="724.00" end="808.00" ego="veh78" foe="pt_bus_25B:0.0">
+        <minTTC time="726.50" position="-6.277412,53.345579" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="811.00" end="873.00" ego="veh140" foe="moto46">
+        <minTTC time="819.00" position="-6.271550,53.345588" type="3" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="740.00" end="873.00" ego="veh155" foe="bus48">
+        <minTTC time="741.50" position="-6.272912,53.350144" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="778.50" end="833.00" ego="veh155" foe="moto56">
+        <minTTC time="786.50" position="-6.273631,53.350135" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="752.00" end="873.50" ego="veh153" foe="truck113">
+        <minTTC time="754.00" position="-6.274078,53.350809" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="821.50" end="874.50" ego="veh166" foe="truck121">
+        <minTTC time="823.50" position="-6.271657,53.345048" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="691.50" end="876.50" ego="veh145" foe="bike75">
+        <minTTC time="705.00" position="-6.274485,53.350729" type="3" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="878.50" end="880.00" ego="veh155" foe="veh187">
+        <minTTC time="880.00" position="-6.277709,53.350534" type="13" value="0.90"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="872.50" end="880.50" ego="veh78" foe="bike87">
+        <minTTC time="875.50" position="-6.282613,53.346798" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="878.50" end="882.50" ego="veh182" foe="moto56">
+        <minTTC time="NA" position="NA" type="NA" value="NA"/>
+        <PET time="880.05" position="-6.274778,53.348031" type="111" value="0.00"/>
+    </conflict>
+    <conflict begin="885.00" end="892.50" ego="veh180" foe="bus67">
+        <minTTC time="889.00" position="-6.269990,53.351067" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="841.00" end="898.00" ego="veh154" foe="pt_bus_25:0.1">
+        <minTTC time="842.50" position="-6.275837,53.345285" type="11" value="1.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="845.50" end="894.00" ego="veh154" foe="veh169">
+        <minTTC time="891.00" position="-6.275941,53.345185" type="13" value="0.94"/>
+        <PET time="892.38" position="-6.275941,53.345185" type="17" value="0.69"/>
+    </conflict>
+    <conflict begin="886.50" end="906.50" ego="veh195" foe="truck130">
+        <minTTC time="888.50" position="-6.265016,53.345568" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="905.00" end="913.00" ego="veh169" foe="bike97">
+        <minTTC time="911.00" position="-6.275705,53.345695" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="830.50" end="847.00" ego="veh151" foe="moto56">
+        <minTTC time="836.50" position="-6.273661,53.350138" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="858.00" end="919.50" ego="veh156" foe="bike92">
+        <minTTC time="861.50" position="-6.273739,53.350139" type="3" value="1.02"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="714.00" end="931.50" ego="veh149" foe="moto47">
+        <minTTC time="716.00" position="-6.274768,53.350735" type="3" value="1.19"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="935.50" end="947.50" ego="veh187" foe="truck131">
+        <minTTC time="937.50" position="-6.279762,53.348573" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="954.00" end="955.50" ego="veh193" foe="bus59">
+        <minTTC time="955.50" position="-6.274743,53.348012" type="13" value="1.07"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="905.00" end="956.00" ego="veh198" foe="bus67">
+        <minTTC time="906.00" position="-6.272912,53.350144" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="954.00" end="960.00" ego="veh193" foe="veh190">
+        <minTTC time="956.00" position="-6.274743,53.348017" type="11" value="0.81"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="907.00" end="942.00" ego="veh178" foe="bike119">
+        <minTTC time="911.50" position="-6.274011,53.348020" type="3" value="1.21"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="962.00" end="967.00" ego="veh212" foe="bike131">
+        <minTTC time="964.50" position="-6.270906,53.350623" type="11" value="1.04"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="814.50" end="975.50" ego="veh143" foe="moto57">
+        <minTTC time="817.50" position="-6.273444,53.348545" type="3" value="1.18"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="953.50" end="977.50" ego="veh151" foe="bus48">
+        <minTTC time="958.00" position="-6.282145,53.347390" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="968.50" end="982.00" ego="veh206" foe="truck142">
+        <minTTC time="970.00" position="-6.268111,53.346561" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="944.50" end="982.00" ego="veh214" foe="moto65">
+        <minTTC time="974.50" position="-6.274553,53.347997" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="968.50" end="986.00" ego="veh187" foe="truck131">
+        <minTTC time="970.50" position="-6.280229,53.346769" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="985.50" end="992.00" ego="veh211" foe="bus67">
+        <minTTC time="989.00" position="-6.277689,53.349757" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="995.50" end="998.00" ego="veh205" foe="pt_tram_Luas_Red_Line:3.1">
+        <minTTC time="998.00" position="-6.277013,53.347072" type="13" value="1.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="967.00" end="995.00" ego="veh168" foe="veh208">
+        <minTTC time="982.50" position="-6.274530,53.350107" type="11" value="0.53"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="959.50" end="1013.00" ego="veh208" foe="bike74">
+        <minTTC time="969.00" position="-6.273661,53.350138" type="3" value="1.30"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1000.00" end="1010.00" ego="veh227" foe="bike119">
+        <minTTC time="1008.00" position="-6.275637,53.345801" type="10" value="1.00"/>
+        <PET time="1009.10" position="-6.275637,53.345801" type="17" value="0.19"/>
+    </conflict>
+    <conflict begin="951.00" end="1023.50" ego="veh192" foe="pt_bus_67:0.1">
+        <minTTC time="1001.00" position="-6.268325,53.346006" type="2" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="967.00" end="1023.50" ego="veh216" foe="truck132">
+        <minTTC time="969.00" position="-6.272912,53.350144" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1009.50" end="1024.50" ego="veh187" foe="truck131">
+        <minTTC time="1011.00" position="-6.275918,53.345865" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="918.00" end="1036.00" ego="veh182" foe="truck120">
+        <minTTC time="992.00" position="-6.274621,53.350006" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1022.00" end="1036.00" ego="veh218" foe="bus75">
+        <minTTC time="1023.50" position="-6.281729,53.350125" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="775.00" end="1043.00" ego="veh148" foe="moto59">
+        <minTTC time="777.00" position="-6.275090,53.350742" type="3" value="1.23"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1027.50" end="1053.50" ego="veh192" foe="truck104">
+        <minTTC time="1030.50" position="-6.265312,53.346322" type="2" value="0.95"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="993.00" end="1054.00" ego="veh198" foe="moto66">
+        <minTTC time="994.00" position="-6.274882,53.347393" type="3" value="1.14"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="971.00" end="1056.00" ego="veh207" foe="truck134">
+        <minTTC time="995.00" position="-6.274693,53.349738" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1036.50" end="1057.50" ego="veh182" foe="veh186">
+        <minTTC time="1038.50" position="-6.274267,53.350711" type="11" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1040.00" end="1057.50" ego="veh191" foe="truck118">
+        <minTTC time="1041.50" position="-6.281531,53.347327" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1051.50" end="1058.00" ego="veh239" foe="bus79">
+        <minTTC time="1055.50" position="-6.282455,53.350938" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="765.00" end="1059.50" ego="veh167" foe="bike89">
+        <minTTC time="968.00" position="-6.273605,53.349754" type="3" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="999.50" end="1060.00" ego="veh215" foe="veh167">
+        <minTTC time="1014.00" position="-6.273618,53.349997" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="999.50" end="1071.00" ego="veh167" foe="veh215">
+        <minTTC time="1014.00" position="-6.273618,53.349997" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="999.50" end="1074.00" ego="veh215" foe="truck85">
+        <minTTC time="1064.00" position="-6.273605,53.350017" type="3" value="1.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1066.00" end="1079.00" ego="veh240" foe="veh239">
+        <minTTC time="1076.50" position="-6.281683,53.350038" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1066.00" end="1079.50" ego="veh239" foe="veh240">
+        <minTTC time="1076.50" position="-6.281683,53.350038" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1070.50" end="1080.50" ego="veh239" foe="bus79">
+        <minTTC time="1072.00" position="-6.281729,53.350125" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1069.00" end="1088.00" ego="veh238" foe="bus81">
+        <minTTC time="1072.00" position="-6.284726,53.351977" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1078.00" end="1090.50" ego="veh236" foe="bike145">
+        <minTTC time="1083.00" position="-6.282050,53.350346" type="3" value="1.02"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1005.50" end="1093.00" ego="veh213" foe="bike136">
+        <minTTC time="1058.50" position="-6.280156,53.347043" type="3" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="926.50" end="1094.50" ego="veh186" foe="bike104">
+        <minTTC time="952.00" position="-6.275598,53.350731" type="3" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1082.50" end="1096.00" ego="veh229" foe="truck153">
+        <minTTC time="1084.00" position="-6.267425,53.345333" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1098.50" end="1101.50" ego="veh249" foe="bike147">
+        <minTTC time="1101.50" position="-6.270268,53.347068" type="12" value="1.35"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1089.00" end="1102.50" ego="veh230" foe="bus77">
+        <minTTC time="1091.50" position="-6.273277,53.348052" type="11" value="1.02"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1071.00" end="1102.50" ego="veh240" foe="bus79">
+        <minTTC time="1079.50" position="-6.281714,53.350080" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="993.00" end="1107.50" ego="veh202" foe="moto65">
+        <minTTC time="994.50" position="-6.274741,53.349003" type="3" value="1.11"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1056.00" end="1113.50" ego="veh231" foe="moto80">
+        <minTTC time="1057.00" position="-6.274033,53.350799" type="3" value="1.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="975.50" end="1045.00" ego="veh154" foe="pt_bus_25:0.1">
+        <minTTC time="978.00" position="-6.277412,53.345579" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1048.00" end="1125.50" ego="veh154" foe="pt_bus_25:0.1">
+        <minTTC time="1053.00" position="-6.277920,53.345675" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1125.00" end="1127.00" ego="veh249" foe="veh242">
+        <minTTC time="1127.00" position="-6.268083,53.346488" type="13" value="1.04"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1116.50" end="1128.00" ego="veh239" foe="bus79">
+        <minTTC time="1118.50" position="-6.279762,53.348573" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1124.50" end="1130.00" ego="veh242" foe="veh249">
+        <minTTC time="1126.00" position="-6.268083,53.346488" type="10" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1093.50" end="1107.00" ego="veh232" foe="bike133">
+        <minTTC time="1102.00" position="-6.281677,53.350036" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1131.00" end="1141.50" ego="veh255" foe="bus65">
+        <minTTC time="1133.00" position="-6.266665,53.348708" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1139.50" end="1145.50" ego="veh213" foe="bike125">
+        <minTTC time="1144.00" position="-6.275326,53.346444" type="11" value="0.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1139.50" end="1146.50" ego="veh251" foe="bus77">
+        <minTTC time="1143.50" position="-6.272287,53.348872" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1108.00" end="1147.00" ego="veh248" foe="truck157">
+        <minTTC time="1110.00" position="-6.268441,53.347440" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1072.00" end="1148.00" ego="veh221" foe="bus80">
+        <minTTC time="1075.50" position="-6.266206,53.347503" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="975.00" end="1153.00" ego="veh190" foe="truck129">
+        <minTTC time="976.50" position="-6.274742,53.348999" type="3" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1083.50" end="1101.00" ego="veh211" foe="moto73">
+        <minTTC time="1085.00" position="-6.280184,53.346940" type="3" value="1.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1126.50" end="1153.50" ego="veh244" foe="bike144">
+        <minTTC time="1130.00" position="-6.274896,53.349544" type="3" value="0.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1154.50" end="1168.50" ego="veh248" foe="truck157">
+        <minTTC time="1156.50" position="-6.268111,53.346561" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1026.50" end="1173.00" ego="veh228" foe="bus74">
+        <minTTC time="1029.50" position="-6.272800,53.350155" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1163.50" end="1174.50" ego="veh190" foe="truck129">
+        <minTTC time="1165.00" position="-6.279858,53.348581" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1180.00" end="1185.00" ego="veh215" foe="moto80">
+        <minTTC time="1181.00" position="-6.275478,53.345939" type="3" value="1.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1177.00" end="1187.00" ego="veh250" foe="bike152">
+        <minTTC time="1180.50" position="-6.280501,53.346638" type="3" value="1.10"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1170.00" end="1188.00" ego="veh248" foe="truck157">
+        <minTTC time="1171.50" position="-6.267948,53.346187" type="3" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1179.00" end="1190.50" ego="veh208" foe="truck165">
+        <minTTC time="1181.00" position="-6.282593,53.346542" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1185.50" end="1192.00" ego="veh252" foe="bike147">
+        <minTTC time="1187.50" position="-6.274756,53.348002" type="11" value="0.70"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1176.00" end="1189.00" ego="veh232" foe="pt_bus_25A:1.1">
+        <minTTC time="1186.50" position="-6.280334,53.346655" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1156.50" end="1206.50" ego="veh255" foe="bus65">
+        <minTTC time="1158.50" position="-6.267152,53.349988" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1161.00" end="1208.00" ego="veh211" foe="moto87">
+        <minTTC time="1162.00" position="-6.275139,53.346915" type="3" value="1.03"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1190.50" end="1211.50" ego="veh225" foe="veh256">
+        <minTTC time="1194.00" position="-6.281682,53.350038" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1190.50" end="1213.50" ego="veh256" foe="veh225">
+        <minTTC time="1194.00" position="-6.281682,53.350038" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1176.00" end="1203.50" ego="veh268" foe="bike140">
+        <minTTC time="1185.50" position="-6.280193,53.346905" type="3" value="1.28"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1192.00" end="1218.00" ego="veh237" foe="bike138">
+        <minTTC time="1197.00" position="-6.273339,53.350120" type="3" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1220.50" end="1226.50" ego="veh277" foe="truck153">
+        <minTTC time="1222.00" position="-6.277016,53.346876" type="11" value="1.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1194.50" end="1230.50" ego="veh262" foe="moto90">
+        <minTTC time="1195.50" position="-6.274078,53.350809" type="3" value="1.04"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1164.50" end="1232.50" ego="veh245" foe="moto83">
+        <minTTC time="1168.00" position="-6.279762,53.348573" type="3" value="1.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1229.00" end="1235.50" ego="veh131" foe="truck169">
+        <minTTC time="1230.00" position="-6.273600,53.349869" type="10" value="1.33"/>
+        <PET time="1233.21" position="-6.273600,53.349869" type="17" value="1.75"/>
+    </conflict>
+    <conflict begin="1139.00" end="1247.50" ego="veh247" foe="truck145">
+        <minTTC time="1141.00" position="-6.272436,53.349475" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1227.00" end="1251.00" ego="veh259" foe="bike140">
+        <minTTC time="1237.50" position="-6.278063,53.346242" type="3" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1247.00" end="1251.00" ego="veh277" foe="bus87">
+        <minTTC time="1249.00" position="-6.279076,53.346441" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1219.50" end="1255.00" ego="veh270" foe="bike146">
+        <minTTC time="1233.50" position="-6.274141,53.350524" type="3" value="1.30"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1232.50" end="1258.00" ego="veh242" foe="truck172">
+        <minTTC time="1234.50" position="-6.274335,53.348005" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1248.00" end="1258.00" ego="veh270" foe="moto69">
+        <minTTC time="1257.00" position="-6.274530,53.350107" type="10" value="0.54"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1249.00" end="1265.00" ego="veh264" foe="truck141">
+        <minTTC time="1253.00" position="-6.274520,53.350177" type="11" value="0.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1262.00" end="1269.00" ego="veh285" foe="truck182">
+        <minTTC time="1264.00" position="-6.273299,53.348040" type="11" value="1.26"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1261.50" end="1270.50" ego="veh245" foe="bus88">
+        <minTTC time="1263.00" position="-6.275928,53.345837" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1249.00" end="1279.50" ego="veh267" foe="bike166">
+        <minTTC time="1273.50" position="-6.274553,53.347997" type="3" value="1.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1190.00" end="1210.00" ego="veh215" foe="moto85">
+        <minTTC time="1207.00" position="-6.275825,53.345309" type="11" value="1.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1273.50" end="1285.00" ego="veh285" foe="truck177">
+        <minTTC time="1275.00" position="-6.271924,53.348131" type="11" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1280.50" end="1292.50" ego="veh242" foe="truck169">
+        <minTTC time="1282.00" position="-6.276842,53.347774" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1299.50" end="1303.50" ego="veh265" foe="truck155">
+        <minTTC time="1302.00" position="-6.274530,53.350107" type="10" value="0.64"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1287.00" end="1304.00" ego="veh270" foe="bus86">
+        <minTTC time="1301.00" position="-6.273318,53.348050" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1303.00" end="1315.00" ego="veh236" foe="truck164">
+        <minTTC time="1305.50" position="-6.273641,53.348066" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1297.00" end="1328.50" ego="veh283" foe="moto94">
+        <minTTC time="1303.50" position="-6.267424,53.345333" type="3" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1248.00" end="1331.50" ego="veh247" foe="bike168">
+        <minTTC time="1287.50" position="-6.273409,53.350118" type="3" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1256.00" end="1319.00" ego="veh247" foe="bus77">
+        <minTTC time="1259.50" position="-6.272842,53.350149" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1310.50" end="1348.00" ego="veh262" foe="bike174">
+        <minTTC time="1323.50" position="-6.281686,53.348642" type="3" value="0.90"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1345.50" end="1351.00" ego="veh280" foe="bus80">
+        <minTTC time="1348.50" position="-6.277571,53.349768" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1245.50" end="1352.00" ego="veh284" foe="moto94">
+        <minTTC time="1250.00" position="-6.267658,53.344939" type="3" value="1.21"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1210.50" end="1355.00" ego="veh231" foe="moto92">
+        <minTTC time="1285.50" position="-6.276814,53.345462" type="3" value="1.27"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1334.50" end="1357.50" ego="veh297" foe="bike183">
+        <minTTC time="1349.00" position="-6.282112,53.348047" type="3" value="0.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1340.50" end="1360.00" ego="veh279" foe="truck198">
+        <minTTC time="1342.50" position="-6.281732,53.349899" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1317.00" end="1360.50" ego="veh278" foe="truck138">
+        <minTTC time="1318.00" position="-6.279849,53.348616" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1330.50" end="1368.50" ego="veh291" foe="moto100">
+        <minTTC time="1343.00" position="-6.282330,53.347395" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1335.00" end="1370.00" ego="veh265" foe="truck177">
+        <minTTC time="1348.50" position="-6.275376,53.346128" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1333.00" end="1375.00" ego="veh293" foe="truck191">
+        <minTTC time="1335.00" position="-6.274033,53.350799" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1307.00" end="1379.00" ego="veh268" foe="truck146">
+        <minTTC time="1346.50" position="-6.280497,53.348534" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1368.50" end="1382.00" ego="veh262" foe="moto91">
+        <minTTC time="1370.50" position="-6.281732,53.349893" type="3" value="1.11"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1391.50" end="1401.50" ego="veh293" foe="truck205">
+        <minTTC time="1393.50" position="-6.276419,53.348009" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1361.50" end="1403.50" ego="veh297" foe="bike183">
+        <minTTC time="1365.50" position="-6.282292,53.347507" type="3" value="0.94"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1396.50" end="1408.00" ego="veh287" foe="truck180">
+        <minTTC time="1399.50" position="-6.281686,53.348642" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="743.00" end="1427.50" ego="veh125" foe="truck83">
+        <minTTC time="1072.00" position="-6.273573,53.349451" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1415.50" end="1428.00" ego="veh297" foe="truck199">
+        <minTTC time="1417.00" position="-6.280493,53.346666" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1422.50" end="1429.50" ego="veh271" foe="veh317">
+        <minTTC time="1426.00" position="-6.272468,53.350190" type="13" value="1.06"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1422.50" end="1429.50" ego="veh317" foe="veh271">
+        <minTTC time="1426.00" position="-6.272468,53.350190" type="12" value="1.06"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1335.50" end="1446.00" ego="veh281" foe="bus99">
+        <minTTC time="1420.00" position="-6.274175,53.350469" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1386.00" end="1448.00" ego="veh294" foe="moto104">
+        <minTTC time="1388.00" position="-6.274672,53.349880" type="3" value="1.29"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1444.00" end="1450.50" ego="veh329" foe="truck208">
+        <minTTC time="1446.50" position="-6.269940,53.349281" type="7" value="1.29"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1384.00" end="1466.00" ego="veh308" foe="truck201">
+        <minTTC time="1385.50" position="-6.275208,53.350740" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1466.00" end="1473.00" ego="veh330" foe="veh280">
+        <minTTC time="1470.00" position="-6.282327,53.347405" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1426.00" end="1474.00" ego="veh301" foe="bus103">
+        <minTTC time="1456.00" position="-6.274611,53.350029" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1431.00" end="1478.00" ego="veh125" foe="bike175">
+        <minTTC time="1436.50" position="-6.273896,53.350138" type="3" value="0.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1460.00" end="1483.00" ego="veh324" foe="truck189">
+        <minTTC time="1465.50" position="-6.268029,53.346044" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1483.00" end="1484.50" ego="veh316" foe="bus109">
+        <minTTC time="1484.50" position="-6.270288,53.347073" type="13" value="1.04"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1468.50" end="1489.50" ego="veh330" foe="truck182">
+        <minTTC time="1473.00" position="-6.282326,53.347407" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1424.50" end="1490.50" ego="veh280" foe="truck182">
+        <minTTC time="1478.00" position="-6.282457,53.346983" type="3" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1466.00" end="1473.50" ego="veh280" foe="veh330">
+        <minTTC time="1470.00" position="-6.282327,53.347405" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1260.00" end="1495.50" ego="veh248" foe="pt_bus_69x:0.1">
+        <minTTC time="1324.00" position="-6.275658,53.345251" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1370.50" end="1496.00" ego="veh302" foe="bike189">
+        <minTTC time="1423.00" position="-6.274495,53.350729" type="3" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1466.50" end="1499.50" ego="veh302" foe="truck201">
+        <minTTC time="1472.00" position="-6.274175,53.350469" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1488.50" end="1501.50" ego="veh302" foe="truck219">
+        <minTTC time="1499.50" position="-6.274500,53.350123" type="11" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1230.00" end="1507.00" ego="veh215" foe="bus84">
+        <minTTC time="1231.50" position="-6.275798,53.345370" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1144.50" end="1525.50" ego="veh229" foe="pt_bus_26:0.1">
+        <minTTC time="1419.50" position="-6.277171,53.345533" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1414.00" end="1528.00" ego="veh291" foe="bike196">
+        <minTTC time="1418.50" position="-6.275685,53.345778" type="12" value="0.73"/>
+        <PET time="1516.97" position="-6.275685,53.345778" type="17" value="2.30"/>
+    </conflict>
+    <conflict begin="1499.00" end="1535.50" ego="veh337" foe="veh338">
+        <minTTC time="1518.50" position="-6.280219,53.346806" type="3" value="1.07"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1470.00" end="1542.50" ego="veh323" foe="truck202">
+        <minTTC time="1472.00" position="-6.276495,53.345943" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1518.50" end="1539.50" ego="veh323" foe="bike182">
+        <minTTC time="1523.00" position="-6.276424,53.345933" type="3" value="1.17"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1350.00" end="1543.00" ego="veh295" foe="truck184">
+        <minTTC time="1534.00" position="-6.281732,53.349893" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1466.00" end="1486.00" ego="veh317" foe="bus101">
+        <minTTC time="1469.00" position="-6.272842,53.350149" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1527.50" end="1545.00" ego="veh323" foe="pt_bus_67:0.2">
+        <minTTC time="1529.50" position="-6.276419,53.345932" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1527.00" end="1551.50" ego="veh341" foe="truck222">
+        <minTTC time="1529.00" position="-6.274621,53.350006" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1554.00" end="1556.50" ego="veh336" foe="veh344">
+        <minTTC time="1556.50" position="-6.268083,53.346488" type="13" value="1.03"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1490.00" end="1575.00" ego="veh304" foe="bus111">
+        <minTTC time="1569.00" position="-6.282145,53.347390" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1564.00" end="1575.50" ego="veh323" foe="veh347">
+        <minTTC time="1567.50" position="-6.274762,53.347998" type="11" value="0.57"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1564.00" end="1576.50" ego="veh323" foe="bike193">
+        <minTTC time="1567.00" position="-6.274756,53.348002" type="11" value="0.59"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1564.50" end="1574.50" ego="veh323" foe="moto115">
+        <minTTC time="1566.50" position="-6.274757,53.348001" type="11" value="0.73"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1565.50" end="1589.00" ego="veh350" foe="moto114">
+        <minTTC time="1566.00" position="-6.280484,53.346665" type="3" value="1.35"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1462.50" end="1590.50" ego="veh306" foe="veh315">
+        <minTTC time="1587.50" position="-6.275611,53.345772" type="11" value="1.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1578.50" end="1595.00" ego="veh331" foe="moto113">
+        <minTTC time="1580.50" position="-6.280212,53.346836" type="3" value="1.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1563.00" end="1598.00" ego="veh346" foe="bus112">
+        <minTTC time="1565.00" position="-6.274078,53.350809" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1580.00" end="1599.00" ego="veh229" foe="pt_bus_26:0.1">
+        <minTTC time="1582.00" position="-6.280356,53.346113" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1563.50" end="1583.00" ego="veh347" foe="moto115">
+        <minTTC time="1564.50" position="-6.274491,53.347998" type="3" value="1.02"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1536.50" end="1605.50" ego="veh330" foe="bike182">
+        <minTTC time="1551.50" position="-6.275995,53.345875" type="3" value="0.95"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1487.00" end="1606.50" ego="veh315" foe="truck202">
+        <minTTC time="1488.50" position="-6.276025,53.345850" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1594.00" end="1611.50" ego="veh363" foe="bus101">
+        <minTTC time="1599.50" position="-6.275671,53.349956" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1521.50" end="1603.50" ego="veh333" foe="bike182">
+        <minTTC time="1528.50" position="-6.276276,53.345884" type="3" value="1.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1555.00" end="1612.00" ego="veh333" foe="truck213">
+        <minTTC time="1556.50" position="-6.276276,53.345884" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1574.50" end="1612.00" ego="veh333" foe="bike190">
+        <minTTC time="1578.50" position="-6.276276,53.345884" type="3" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1589.50" end="1613.50" ego="veh343" foe="truck207">
+        <minTTC time="1591.50" position="-6.276417,53.345903" type="3" value="1.38"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1582.50" end="1608.50" ego="veh125" foe="bike175">
+        <minTTC time="1587.00" position="-6.280886,53.348569" type="3" value="0.87"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1608.00" end="1632.00" ego="veh356" foe="moto113">
+        <minTTC time="1609.50" position="-6.277155,53.346064" type="3" value="1.19"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1643.00" end="1646.00" ego="veh305" foe="moto124">
+        <minTTC time="NA" position="NA" type="NA" value="NA"/>
+        <PET time="1644.94" position="-6.282473,53.350933" type="17" value="0.39"/>
+    </conflict>
+    <conflict begin="1576.50" end="1622.00" ego="veh342" foe="truck230">
+        <minTTC time="1578.50" position="-6.276720,53.345981" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1622.50" end="1646.50" ego="veh337" foe="veh338">
+        <minTTC time="1626.50" position="-6.275139,53.346915" type="3" value="1.06"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1634.50" end="1646.00" ego="veh356" foe="bus110">
+        <minTTC time="1637.00" position="-6.275302,53.346455" type="11" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1601.50" end="1657.50" ego="veh298" foe="bike206">
+        <minTTC time="1638.50" position="-6.274126,53.350550" type="3" value="1.02"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1659.00" end="1661.50" ego="veh353" foe="pt_tram_Luas_Red_Line:3.2">
+        <minTTC time="1661.50" position="-6.280168,53.347185" type="13" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1657.00" end="1662.50" ego="veh314" foe="truck246">
+        <minTTC time="1661.00" position="-6.274638,53.349819" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1637.50" end="1674.00" ego="veh367" foe="bike223">
+        <minTTC time="1655.50" position="-6.281729,53.350125" type="3" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1673.50" end="1675.00" ego="veh353" foe="pt_bus_69x:0.1">
+        <minTTC time="1675.00" position="-6.280529,53.346155" type="13" value="0.96"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1670.00" end="1676.00" ego="veh356" foe="moto121">
+        <minTTC time="1672.00" position="-6.273346,53.348078" type="11" value="1.58"/>
+        <PET time="1674.81" position="-6.273331,53.348072" type="17" value="0.73"/>
+    </conflict>
+    <conflict begin="1636.50" end="1676.00" ego="veh330" foe="truck202">
+        <minTTC time="1638.50" position="-6.269602,53.345841" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1667.50" end="1691.00" ego="veh331" foe="moto113">
+        <minTTC time="1669.00" position="-6.269046,53.345913" type="3" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1674.50" end="1691.50" ego="veh344" foe="moto114">
+        <minTTC time="1676.50" position="-6.274335,53.348006" type="3" value="1.04"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1506.50" end="1697.50" ego="veh299" foe="bike184">
+        <minTTC time="1683.50" position="-6.274220,53.350478" type="3" value="0.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1628.50" end="1714.00" ego="veh342" foe="truck230">
+        <minTTC time="1656.00" position="-6.274783,53.348200" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1710.00" end="1714.50" ego="veh365" foe="veh340">
+        <minTTC time="1710.50" position="-6.267886,53.346061" type="11" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1710.00" end="1718.00" ego="veh365" foe="truck234">
+        <minTTC time="1711.00" position="-6.267890,53.346060" type="11" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1693.50" end="1713.00" ego="veh331" foe="moto113">
+        <minTTC time="1695.50" position="-6.267628,53.345552" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1710.00" end="1720.50" ego="veh365" foe="veh372">
+        <minTTC time="1711.00" position="-6.267886,53.346061" type="11" value="1.28"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1727.00" end="1733.50" ego="veh299" foe="truck244">
+        <minTTC time="1731.00" position="-6.276285,53.348777" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1627.50" end="1739.00" ego="veh361" foe="bus116">
+        <minTTC time="1723.50" position="-6.274215,53.350711" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1723.50" end="1739.00" ego="veh391" foe="truck237">
+        <minTTC time="1725.50" position="-6.275918,53.345865" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1615.50" end="1747.50" ego="veh340" foe="truck234">
+        <minTTC time="1617.00" position="-6.268441,53.347440" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1744.00" end="1748.00" ego="veh397" foe="veh391">
+        <minTTC time="1745.00" position="-6.275288,53.346491" type="7" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1638.50" end="1748.50" ego="veh358" foe="moto108">
+        <minTTC time="1640.00" position="-6.274744,53.348917" type="3" value="1.07"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1745.50" end="1749.50" ego="veh397" foe="moto120">
+        <minTTC time="1746.50" position="-6.275288,53.346491" type="7" value="1.12"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1725.50" end="1766.50" ego="veh375" foe="moto126">
+        <minTTC time="1727.50" position="-6.275179,53.349503" type="3" value="1.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1720.00" end="1769.00" ego="veh359" foe="bike230">
+        <minTTC time="1729.00" position="-6.274495,53.350729" type="3" value="1.12"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1718.50" end="1774.00" ego="veh365" foe="truck245">
+        <minTTC time="1720.50" position="-6.268029,53.346044" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1704.50" end="1752.50" ego="veh348" foe="bike236">
+        <minTTC time="1709.00" position="-6.280947,53.348575" type="3" value="0.88"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1749.00" end="1778.50" ego="veh392" foe="truck263">
+        <minTTC time="1771.50" position="-6.274415,53.350108" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1769.00" end="1778.50" ego="veh403" foe="bike246">
+        <minTTC time="1775.50" position="-6.282329,53.347398" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1747.50" end="1793.50" ego="veh381" foe="truck243">
+        <minTTC time="1781.50" position="-6.279858,53.348581" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1649.00" end="1807.00" ego="veh374" foe="veh338">
+        <minTTC time="1710.00" position="-6.274739,53.349087" type="3" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1726.00" end="1813.50" ego="veh391" foe="moto120">
+        <minTTC time="1736.50" position="-6.275918,53.345865" type="3" value="1.37"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1744.00" end="1748.00" ego="veh391" foe="veh397">
+        <minTTC time="1745.00" position="-6.275288,53.346491" type="6" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1652.00" end="1814.00" ego="veh342" foe="truck217">
+        <minTTC time="1775.00" position="-6.274721,53.349389" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1779.50" end="1814.50" ego="veh331" foe="moto113">
+        <minTTC time="1781.00" position="-6.275916,53.345172" type="3" value="1.19"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1804.50" end="1820.50" ego="veh381" foe="truck243">
+        <minTTC time="1807.00" position="-6.281686,53.348642" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1761.50" end="1821.00" ego="veh400" foe="truck265">
+        <minTTC time="1812.00" position="-6.268111,53.346561" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1822.50" end="1835.00" ego="veh409" foe="bus108">
+        <minTTC time="1829.00" position="-6.276842,53.349838" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1734.50" end="1841.00" ego="veh394" foe="moto129">
+        <minTTC time="1737.00" position="-6.273619,53.350014" type="3" value="1.29"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1838.50" end="1847.00" ego="veh417" foe="truck279">
+        <minTTC time="1842.50" position="-6.278990,53.345443" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1834.00" end="1849.00" ego="veh381" foe="truck243">
+        <minTTC time="1836.00" position="-6.281732,53.349893" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1857.50" end="1860.00" ego="veh410" foe="bus134">
+        <minTTC time="1858.50" position="-6.275300,53.346458" type="10" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1687.00" end="1863.00" ego="veh376" foe="bus119">
+        <minTTC time="1823.00" position="-6.274721,53.349394" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1759.50" end="1868.00" ego="veh373" foe="truck254">
+        <minTTC time="1761.00" position="-6.274858,53.350737" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1852.50" end="1870.00" ego="veh405" foe="pt_bus_79:1.2">
+        <minTTC time="1854.50" position="-6.280493,53.346666" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1871.50" end="1882.00" ego="veh417" foe="truck279">
+        <minTTC time="1874.50" position="-6.282456,53.346383" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1830.50" end="1887.50" ego="veh358" foe="moto116">
+        <minTTC time="1834.50" position="-6.281686,53.348642" type="3" value="1.14"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1825.00" end="1889.00" ego="veh396" foe="moto133">
+        <minTTC time="1826.50" position="-6.274621,53.350732" type="3" value="1.30"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1873.00" end="1893.00" ego="veh377" foe="bike231">
+        <minTTC time="1877.50" position="-6.271784,53.344952" type="3" value="0.99"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1876.00" end="1906.00" ego="veh397" foe="truck285">
+        <minTTC time="1880.00" position="-6.273605,53.349754" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1914.00" end="1929.50" ego="veh429" foe="bus128">
+        <minTTC time="1917.00" position="-6.267592,53.345407" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1913.50" end="1930.00" ego="veh409" foe="bike264">
+        <minTTC time="1919.00" position="-6.281686,53.348642" type="3" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1740.00" end="1932.00" ego="veh390" foe="truck244">
+        <minTTC time="1743.50" position="-6.275499,53.349457" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1815.50" end="1933.00" ego="veh376" foe="truck257">
+        <minTTC time="1884.50" position="-6.274621,53.350006" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1925.00" end="1937.00" ego="veh419" foe="pt_bus_25A:1.2">
+        <minTTC time="1926.50" position="-6.268029,53.346044" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1819.50" end="1938.00" ego="veh390" foe="bus119">
+        <minTTC time="1886.00" position="-6.274693,53.349738" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1929.00" end="1938.50" ego="veh437" foe="truck292">
+        <minTTC time="1935.00" position="-6.274113,53.350698" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1918.50" end="1942.00" ego="veh417" foe="truck270">
+        <minTTC time="1924.50" position="-6.282457,53.346983" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1939.50" end="1943.50" ego="veh394" foe="veh439">
+        <minTTC time="1940.00" position="-6.281832,53.350412" type="10" value="1.36"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1939.50" end="1943.50" ego="veh439" foe="veh394">
+        <minTTC time="1940.00" position="-6.281832,53.350412" type="11" value="1.36"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1908.00" end="1919.00" ego="veh405" foe="pt_bus_79:1.2">
+        <minTTC time="1910.00" position="-6.275928,53.345837" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1940.50" end="1956.00" ego="veh420" foe="bike268">
+        <minTTC time="1949.00" position="-6.275514,53.345866" type="13" value="0.29"/>
+        <PET time="1952.27" position="-6.275514,53.345866" type="17" value="1.99"/>
+    </conflict>
+    <conflict begin="1951.50" end="1957.00" ego="veh433" foe="bike272">
+        <minTTC time="1954.50" position="-6.277702,53.350537" type="11" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1949.00" end="1962.50" ego="veh441" foe="pt_bus_39:0.1">
+        <minTTC time="1950.50" position="-6.279858,53.348581" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1951.00" end="1970.50" ego="veh412" foe="moto136">
+        <minTTC time="1952.50" position="-6.281201,53.348598" type="3" value="1.04"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1919.00" end="1958.00" ego="veh400" foe="bike248">
+        <minTTC time="1923.00" position="-6.273739,53.350139" type="3" value="0.97"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1701.00" end="1976.00" ego="veh344" foe="moto92">
+        <minTTC time="1885.50" position="-6.274721,53.349389" type="3" value="1.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1955.50" end="1970.00" ego="veh437" foe="truck276">
+        <minTTC time="1961.00" position="-6.274175,53.350469" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1807.00" end="1994.00" ego="veh333" foe="pt_bus_145:1.2">
+        <minTTC time="1925.00" position="-6.277211,53.345540" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1988.50" end="1994.00" ego="veh429" foe="truck286">
+        <minTTC time="1994.00" position="-6.272233,53.345562" type="13" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1977.50" end="1995.00" ego="veh445" foe="bike252">
+        <minTTC time="1984.50" position="-6.271881,53.348125" type="11" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1984.50" end="1995.50" ego="veh411" foe="pt_bus_39:0.1">
+        <minTTC time="1987.50" position="-6.282112,53.348047" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1962.50" end="1996.50" ego="veh404" foe="truck273">
+        <minTTC time="1989.50" position="-6.274781,53.348252" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1996.50" end="2011.50" ego="veh438" foe="bike279">
+        <minTTC time="2000.00" position="-6.274700,53.350762" type="3" value="0.97"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1970.50" end="2015.00" ego="veh450" foe="truck275">
+        <minTTC time="1994.00" position="-6.281686,53.348642" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1998.00" end="2025.50" ego="veh411" foe="pt_bus_39:0.1">
+        <minTTC time="2000.00" position="-6.282292,53.347507" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2003.50" end="2032.00" ego="veh413" foe="bike258">
+        <minTTC time="2014.00" position="-6.274136,53.350532" type="3" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1991.50" end="2033.00" ego="veh451" foe="truck286">
+        <minTTC time="1995.50" position="-6.271845,53.345592" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2035.00" end="2039.50" ego="veh464" foe="bus139">
+        <minTTC time="2037.00" position="-6.269860,53.349342" type="11" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1944.50" end="2051.00" ego="veh378" foe="truck247">
+        <minTTC time="1949.50" position="-6.274696,53.349695" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2039.50" end="2053.50" ego="veh344" foe="truck291">
+        <minTTC time="2043.50" position="-6.279810,53.348577" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2000.50" end="2056.50" ego="veh433" foe="bike258">
+        <minTTC time="2040.00" position="-6.273945,53.350166" type="3" value="1.03"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2056.50" end="2060.00" ego="veh444" foe="truck269">
+        <minTTC time="2059.50" position="-6.274764,53.347996" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2045.00" end="2067.50" ego="veh378" foe="truck290">
+        <minTTC time="2046.50" position="-6.279762,53.348573" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1814.00" end="2040.00" ego="veh391" foe="moto121">
+        <minTTC time="1830.50" position="-6.274769,53.348422" type="3" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2033.00" end="2092.00" ego="veh455" foe="pt_bus_39a:1.3">
+        <minTTC time="2034.50" position="-6.281729,53.350125" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2085.00" end="2092.00" ego="veh471" foe="bike286">
+        <minTTC time="2087.00" position="-6.277746,53.349760" type="11" value="1.05"/>
+        <PET time="2089.92" position="-6.277741,53.349767" type="17" value="0.90"/>
+    </conflict>
+    <conflict begin="2095.00" end="2100.00" ego="veh430" foe="veh429">
+        <minTTC time="2096.50" position="-6.273554,53.349262" type="11" value="1.36"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2095.00" end="2101.00" ego="veh430" foe="truck273">
+        <minTTC time="2096.50" position="-6.273559,53.349263" type="11" value="1.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2095.00" end="2102.00" ego="veh430" foe="veh404">
+        <minTTC time="2096.50" position="-6.273554,53.349262" type="11" value="1.36"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2056.00" end="2098.00" ego="veh436" foe="moto139">
+        <minTTC time="2094.00" position="-6.273596,53.350127" type="11" value="0.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2075.50" end="2124.00" ego="veh465" foe="truck309">
+        <minTTC time="2078.00" position="-6.274495,53.350729" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2116.50" end="2125.50" ego="veh322" foe="bike278">
+        <minTTC time="2121.50" position="-6.275637,53.345801" type="10" value="0.58"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2028.50" end="2128.50" ego="veh450" foe="moto145">
+        <minTTC time="2078.50" position="-6.282181,53.347818" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2073.00" end="2137.50" ego="veh469" foe="truck314">
+        <minTTC time="2075.00" position="-6.267658,53.344939" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2023.00" end="2139.00" ego="veh333" foe="moto154">
+        <minTTC time="2024.00" position="-6.277818,53.345656" type="3" value="1.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2122.00" end="2139.50" ego="veh483" foe="pt_bus_39a:0.2">
+        <minTTC time="2124.00" position="-6.282276,53.347829" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2056.00" end="2124.00" ego="veh426" foe="truck292">
+        <minTTC time="2059.00" position="-6.282101,53.348089" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2135.00" end="2149.50" ego="veh456" foe="bike268">
+        <minTTC time="2139.00" position="-6.281201,53.348598" type="3" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2125.00" end="2151.00" ego="veh426" foe="bike289">
+        <minTTC time="2132.50" position="-6.282332,53.347387" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2062.00" end="2155.50" ego="veh457" foe="truck293">
+        <minTTC time="2064.00" position="-6.272912,53.350144" type="3" value="1.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2154.50" end="2159.50" ego="veh448" foe="veh491">
+        <minTTC time="2157.50" position="-6.277994,53.346724" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2154.50" end="2159.50" ego="veh491" foe="veh448">
+        <minTTC time="2157.50" position="-6.277994,53.346724" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2119.00" end="2163.00" ego="veh454" foe="bus158">
+        <minTTC time="2146.50" position="-6.274213,53.350711" type="3" value="1.38"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2141.00" end="2165.00" ego="veh483" foe="pt_bus_39a:0.2">
+        <minTTC time="2144.00" position="-6.282102,53.348474" type="3" value="1.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2157.50" end="2163.00" ego="veh426" foe="moto158">
+        <minTTC time="2158.00" position="-6.282641,53.346404" type="10" value="1.30"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2157.50" end="2166.50" ego="veh465" foe="bike283">
+        <minTTC time="2162.00" position="-6.275514,53.345866" type="11" value="0.36"/>
+        <PET time="2164.24" position="-6.275514,53.345866" type="17" value="1.38"/>
+    </conflict>
+    <conflict begin="2149.00" end="2172.50" ego="veh486" foe="bike300">
+        <minTTC time="2153.00" position="-6.274078,53.350809" type="3" value="0.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2167.50" end="2179.00" ego="veh459" foe="truck292">
+        <minTTC time="2169.00" position="-6.282457,53.346983" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2103.00" end="2188.50" ego="veh455" foe="pt_bus_39a:1.3">
+        <minTTC time="2107.00" position="-6.281686,53.348642" type="3" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2140.00" end="2190.00" ego="veh469" foe="truck314">
+        <minTTC time="2172.00" position="-6.271945,53.345028" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2188.00" end="2192.00" ego="veh454" foe="moto166">
+        <minTTC time="NA" position="NA" type="NA" value="NA"/>
+        <PET time="2191.10" position="-6.269853,53.351376" type="17" value="0.99"/>
+    </conflict>
+    <conflict begin="2190.50" end="2194.50" ego="veh465" foe="veh469">
+        <minTTC time="2190.50" position="-6.272246,53.345572" type="11" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2179.50" end="2198.50" ego="veh488" foe="bike301">
+        <minTTC time="2183.50" position="-6.280212,53.346836" type="3" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2198.50" end="2205.00" ego="veh490" foe="bus164">
+        <minTTC time="2202.50" position="-6.277754,53.350547" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2193.50" end="2215.50" ego="veh469" foe="truck314">
+        <minTTC time="2195.50" position="-6.272301,53.345410" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2126.00" end="2224.00" ego="veh479" foe="truck235">
+        <minTTC time="2179.00" position="-6.274693,53.349738" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2135.00" end="2216.00" ego="veh479" foe="bus162">
+        <minTTC time="2137.00" position="-6.274471,53.349489" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2213.00" end="2225.50" ego="veh479" foe="bike291">
+        <minTTC time="2218.00" position="-6.274522,53.350109" type="11" value="0.70"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2217.50" end="2233.00" ego="veh465" foe="moto147">
+        <minTTC time="2218.00" position="-6.268029,53.346044" type="3" value="1.02"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2231.00" end="2234.50" ego="veh479" foe="truck334">
+        <minTTC time="2234.00" position="-6.271955,53.350356" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2152.50" end="2243.50" ego="veh466" foe="bus149">
+        <minTTC time="2156.50" position="-6.279858,53.348581" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2151.50" end="2246.50" ego="veh481" foe="bike291">
+        <minTTC time="2168.50" position="-6.273739,53.350139" type="3" value="0.86"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2241.50" end="2253.00" ego="veh310" foe="bike300">
+        <minTTC time="2245.00" position="-6.279331,53.349809" type="3" value="0.98"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2150.50" end="2253.00" ego="veh487" foe="bike275">
+        <minTTC time="2218.00" position="-6.281201,53.348598" type="3" value="0.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2231.00" end="2254.00" ego="veh482" foe="truck281">
+        <minTTC time="2244.00" position="-6.280139,53.348501" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1922.50" end="2269.50" ego="veh377" foe="bike231">
+        <minTTC time="1930.50" position="-6.275301,53.345182" type="3" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1989.00" end="2270.50" ego="veh377" foe="moto150">
+        <minTTC time="2267.00" position="-6.276066,53.345298" type="13" value="0.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2256.50" end="2276.00" ego="veh487" foe="bike275">
+        <minTTC time="2262.50" position="-6.282112,53.348047" type="3" value="0.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2232.50" end="2278.00" ego="veh475" foe="moto121">
+        <minTTC time="2236.50" position="-6.280554,53.347228" type="3" value="1.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2235.50" end="2286.00" ego="veh466" foe="bike310">
+        <minTTC time="2260.00" position="-6.281686,53.348642" type="3" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2224.50" end="2288.50" ego="veh497" foe="moto167">
+        <minTTC time="2268.50" position="-6.274693,53.349739" type="3" value="1.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2080.00" end="2294.00" ego="veh462" foe="truck315">
+        <minTTC time="2084.00" position="-6.272498,53.350194" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2272.00" end="2299.50" ego="veh457" foe="truck248">
+        <minTTC time="2273.50" position="-6.280915,53.348572" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2298.00" end="2301.50" ego="veh502" foe="veh510">
+        <minTTC time="2301.50" position="-6.270268,53.347068" type="13" value="1.35"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2298.00" end="2301.50" ego="veh510" foe="veh502">
+        <minTTC time="2301.50" position="-6.270268,53.347068" type="12" value="1.35"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2313.00" end="2317.00" ego="veh510" foe="pt_tram_Luas_Red_Line:2.3">
+        <minTTC time="2314.50" position="-6.268425,53.347325" type="13" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2195.50" end="2216.50" ego="veh436" foe="moto121">
+        <minTTC time="2197.00" position="-6.279858,53.348581" type="3" value="1.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2224.00" end="2293.00" ego="veh436" foe="bike290">
+        <minTTC time="2261.50" position="-6.281201,53.348598" type="3" value="0.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2318.50" end="2330.00" ego="veh514" foe="bike275">
+        <minTTC time="2322.00" position="-6.282404,53.347316" type="3" value="1.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2327.00" end="2344.50" ego="veh481" foe="moto172">
+        <minTTC time="2328.50" position="-6.279762,53.348573" type="3" value="1.26"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2113.50" end="2345.00" ego="veh464" foe="moto160">
+        <minTTC time="2150.00" position="-6.272463,53.350197" type="3" value="1.28"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2259.00" end="2345.00" ego="veh464" foe="bike274">
+        <minTTC time="2263.50" position="-6.273348,53.350120" type="3" value="0.87"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2339.50" end="2346.50" ego="veh520" foe="bus171">
+        <minTTC time="2343.50" position="-6.277688,53.349757" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2338.00" end="2358.00" ego="veh502" foe="truck355">
+        <minTTC time="2342.00" position="-6.272479,53.348073" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2154.00" end="2360.00" ego="veh453" foe="moto164">
+        <minTTC time="2250.00" position="-6.272469,53.349677" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2364.50" end="2366.00" ego="veh481" foe="bus66">
+        <minTTC time="2366.00" position="-6.280529,53.346155" type="13" value="1.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2328.00" end="2373.00" ego="veh469" foe="bus171">
+        <minTTC time="2333.00" position="-6.276835,53.349839" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2360.00" end="2374.50" ego="veh525" foe="truck350">
+        <minTTC time="2362.50" position="-6.272824,53.348064" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2364.00" end="2376.00" ego="veh514" foe="truck351">
+        <minTTC time="2365.50" position="-6.280493,53.346666" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2370.00" end="2383.50" ego="veh502" foe="truck355">
+        <minTTC time="2372.00" position="-6.274439,53.348001" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2392.00" end="2394.50" ego="veh519" foe="truck329">
+        <minTTC time="2394.50" position="-6.275278,53.346467" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1489.00" end="1590.50" ego="veh306" foe="truck202">
+        <minTTC time="1587.50" position="-6.275610,53.345774" type="11" value="0.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1584.50" end="1590.50" ego="veh306" foe="veh333">
+        <minTTC time="1587.50" position="-6.275611,53.345772" type="11" value="1.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1927.50" end="2395.00" ego="veh306" foe="veh389">
+        <minTTC time="2093.50" position="-6.275941,53.345185" type="13" value="0.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1965.50" end="2395.00" ego="veh306" foe="truck237">
+        <minTTC time="2094.00" position="-6.275936,53.345185" type="11" value="0.67"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2106.50" end="2401.50" ego="veh444" foe="truck307">
+        <minTTC time="2108.50" position="-6.272425,53.349408" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2372.50" end="2405.00" ego="veh506" foe="moto179">
+        <minTTC time="2375.50" position="-6.271288,53.345617" type="3" value="1.26"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2399.00" end="2415.00" ego="veh514" foe="truck351">
+        <minTTC time="2400.50" position="-6.275918,53.345865" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2013.00" end="2416.00" ego="veh445" foe="moto142">
+        <minTTC time="2262.50" position="-6.272478,53.350080" type="3" value="1.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2258.00" end="2295.50" ego="veh445" foe="truck304">
+        <minTTC time="2258.00" position="-6.272489,53.350194" type="2" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2211.00" end="2419.50" ego="veh467" foe="bus151">
+        <minTTC time="2212.50" position="-6.272274,53.348843" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1968.00" end="2425.50" ego="veh297" foe="truck237">
+        <minTTC time="2398.00" position="-6.275936,53.345185" type="11" value="0.30"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="1989.00" end="2421.00" ego="veh297" foe="moto150">
+        <minTTC time="2397.50" position="-6.275947,53.345186" type="13" value="0.53"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2261.50" end="2426.00" ego="veh297" foe="moto161">
+        <minTTC time="2262.50" position="-6.275840,53.345280" type="3" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2406.50" end="2428.00" ego="veh525" foe="truck350">
+        <minTTC time="2409.00" position="-6.274721,53.349389" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2425.50" end="2429.00" ego="veh467" foe="bus180">
+        <minTTC time="2428.50" position="-6.271931,53.350360" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2426.00" end="2431.00" ego="veh551" foe="truck209">
+        <minTTC time="2428.00" position="-6.273483,53.348746" type="11" value="1.26"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2426.00" end="2433.00" ego="veh551" foe="bus145">
+        <minTTC time="2428.00" position="-6.273483,53.348746" type="11" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2430.00" end="2437.00" ego="veh534" foe="moto185">
+        <minTTC time="2433.00" position="-6.274730,53.349265" type="6" value="1.21"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2441.00" end="2458.00" ego="veh520" foe="truck315">
+        <minTTC time="2457.50" position="-6.282170,53.347949" type="12" value="0.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2433.50" end="2459.00" ego="veh528" foe="bike325">
+        <minTTC time="2451.00" position="-6.274553,53.347997" type="3" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2453.50" end="2466.00" ego="veh464" foe="bike340">
+        <minTTC time="2457.00" position="-6.281201,53.348598" type="3" value="0.94"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2425.50" end="2449.50" ego="veh525" foe="truck317">
+        <minTTC time="2429.00" position="-6.274580,53.350099" type="11" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2425.50" end="2434.50" ego="veh525" foe="truck356">
+        <minTTC time="2429.00" position="-6.274580,53.350099" type="11" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2428.00" end="2468.50" ego="veh549" foe="bike320">
+        <minTTC time="2432.50" position="-6.272066,53.348508" type="3" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2429.00" end="2469.00" ego="veh525" foe="truck350">
+        <minTTC time="2432.00" position="-6.274621,53.350006" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2439.50" end="2475.00" ego="veh534" foe="truck329">
+        <minTTC time="2442.50" position="-6.274693,53.349738" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2460.00" end="2476.00" ego="veh547" foe="bus171">
+        <minTTC time="2462.00" position="-6.282423,53.347408" type="11" value="1.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2471.00" end="2478.50" ego="veh513" foe="truck317">
+        <minTTC time="2475.00" position="-6.276810,53.349477" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2477.50" end="2480.00" ego="veh489" foe="pt_bus_747:0.3">
+        <minTTC time="2477.50" position="-6.280529,53.346155" type="11" value="1.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2453.00" end="2482.50" ego="veh522" foe="truck358">
+        <minTTC time="2471.50" position="-6.274457,53.350209" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2457.50" end="2476.50" ego="veh514" foe="moto183">
+        <minTTC time="2458.50" position="-6.274705,53.349584" type="3" value="1.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2481.50" end="2498.00" ego="veh545" foe="pt_bus_25B:1.3">
+        <minTTC time="2482.50" position="-6.275918,53.345865" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2493.00" end="2501.00" ego="veh549" foe="truck352">
+        <minTTC time="2495.50" position="-6.274553,53.347997" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2449.00" end="2503.00" ego="veh445" foe="moto159">
+        <minTTC time="2487.00" position="-6.281686,53.348642" type="3" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2443.00" end="2449.00" ego="veh526" foe="truck326">
+        <minTTC time="2448.50" position="-6.275934,53.345217" type="7" value="1.35"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2509.50" end="2517.00" ego="veh445" foe="bike344">
+        <minTTC time="NA" position="NA" type="NA" value="NA"/>
+        <PET time="2514.53" position="-6.282168,53.347913" type="17" value="0.81"/>
+    </conflict>
+    <conflict begin="2357.50" end="2520.00" ego="veh530" foe="moto170">
+        <minTTC time="2360.00" position="-6.275266,53.350739" type="2" value="0.94"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2431.00" end="2530.50" ego="veh551" foe="veh468">
+        <minTTC time="2434.50" position="-6.273410,53.348397" type="11" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2523.00" end="2541.00" ego="veh511" foe="veh564">
+        <minTTC time="2538.00" position="-6.281623,53.350024" type="7" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2523.00" end="2541.50" ego="veh564" foe="veh511">
+        <minTTC time="2538.00" position="-6.281623,53.350024" type="6" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2526.50" end="2541.50" ego="veh564" foe="bike342">
+        <minTTC time="2530.50" position="-6.281729,53.350125" type="3" value="0.96"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2513.00" end="2541.50" ego="veh566" foe="truck333">
+        <minTTC time="2515.00" position="-6.266815,53.350158" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2450.00" end="2546.50" ego="veh502" foe="truck337">
+        <minTTC time="2451.50" position="-6.276888,53.349730" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2530.00" end="2548.50" ego="veh511" foe="veh570">
+        <minTTC time="2543.50" position="-6.281682,53.350038" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2535.00" end="2552.50" ego="veh567" foe="bike356">
+        <minTTC time="2547.50" position="-6.272824,53.348064" type="3" value="1.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2384.50" end="2557.00" ego="veh542" foe="bus175">
+        <minTTC time="2534.50" position="-6.274175,53.350469" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2418.00" end="2560.50" ego="veh543" foe="bike310">
+        <minTTC time="2423.50" position="-6.275990,53.350710" type="3" value="0.95"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2541.50" end="2563.00" ego="veh555" foe="bus187">
+        <minTTC time="2543.50" position="-6.268441,53.347440" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2470.50" end="2576.50" ego="veh528" foe="bus178">
+        <minTTC time="2472.50" position="-6.274741,53.349001" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2554.00" end="2574.00" ego="veh528" foe="bike345">
+        <minTTC time="2562.50" position="-6.274522,53.350109" type="11" value="0.58"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2554.00" end="2575.00" ego="veh528" foe="veh572">
+        <minTTC time="2562.00" position="-6.274530,53.350107" type="11" value="0.60"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2554.00" end="2579.00" ego="veh528" foe="truck297">
+        <minTTC time="2563.00" position="-6.274534,53.350106" type="11" value="0.52"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2571.00" end="2580.50" ego="veh555" foe="bus187">
+        <minTTC time="2572.50" position="-6.268111,53.346561" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2552.00" end="2582.00" ego="veh564" foe="bike342">
+        <minTTC time="2556.50" position="-6.280497,53.349921" type="3" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2530.00" end="2548.50" ego="veh570" foe="veh511">
+        <minTTC time="2543.50" position="-6.281682,53.350038" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2582.00" end="2584.00" ego="veh529" foe="truck375">
+        <minTTC time="2584.00" position="-6.275277,53.346467" type="13" value="0.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2536.00" end="2592.50" ego="veh570" foe="moto189">
+        <minTTC time="2537.50" position="-6.281758,53.350206" type="3" value="1.23"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2525.50" end="2595.50" ego="veh572" foe="bike345">
+        <minTTC time="2530.50" position="-6.273409,53.350118" type="3" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2421.50" end="2441.00" ego="veh538" foe="bus176">
+        <minTTC time="2423.50" position="-6.268132,53.346615" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2487.00" end="2606.50" ego="veh540" foe="truck363">
+        <minTTC time="2570.00" position="-6.274721,53.349389" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2507.00" end="2587.00" ego="veh552" foe="bike319">
+        <minTTC time="2512.00" position="-6.275183,53.350741" type="3" value="0.90"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2585.00" end="2610.00" ego="veh552" foe="bike346">
+        <minTTC time="2607.50" position="-6.274531,53.350172" type="11" value="1.06"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2572.00" end="2645.50" ego="veh566" foe="truck389">
+        <minTTC time="2588.50" position="-6.271753,53.350302" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2572.50" end="2648.00" ego="veh558" foe="truck373">
+        <minTTC time="2591.00" position="-6.281686,53.348642" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2607.00" end="2656.00" ego="veh530" foe="bus179">
+        <minTTC time="2641.00" position="-6.268133,53.346031" type="2" value="0.71"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2651.00" end="2658.00" ego="veh597" foe="bus184">
+        <minTTC time="2655.00" position="-6.276828,53.349839" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2672.00" end="2683.50" ego="veh594" foe="bike351">
+        <minTTC time="2675.00" position="-6.282451,53.347321" type="3" value="0.99"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2600.50" end="2684.50" ego="veh577" foe="bus193">
+        <minTTC time="2646.00" position="-6.273409,53.350118" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2650.00" end="2685.00" ego="veh566" foe="truck389">
+        <minTTC time="2652.00" position="-6.272912,53.350144" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2668.00" end="2687.00" ego="veh602" foe="moto198">
+        <minTTC time="2669.50" position="-6.273289,53.348051" type="11" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2468.00" end="2688.50" ego="veh526" foe="truck316">
+        <minTTC time="2655.00" position="-6.277808,53.345654" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2667.50" end="2690.00" ego="veh599" foe="truck398">
+        <minTTC time="2669.00" position="-6.267425,53.345333" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2367.50" end="2695.00" ego="veh517" foe="truck344">
+        <minTTC time="2370.00" position="-6.275694,53.345606" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2694.00" end="2700.00" ego="veh588" foe="truck402">
+        <minTTC time="2695.50" position="-6.267620,53.345324" type="11" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2687.00" end="2702.50" ego="veh594" foe="bike351">
+        <minTTC time="2690.50" position="-6.282276,53.347829" type="3" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2708.50" end="2713.50" ego="veh567" foe="veh612">
+        <minTTC time="2710.50" position="-6.275823,53.345313" type="11" value="0.82"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2708.50" end="2716.50" ego="veh567" foe="pt_bus_25A:0.3">
+        <minTTC time="2710.00" position="-6.275837,53.345285" type="11" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2703.00" end="2717.50" ego="veh526" foe="truck316">
+        <minTTC time="2704.50" position="-6.280356,53.346113" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2710.50" end="2721.00" ego="veh576" foe="bike342">
+        <minTTC time="2714.50" position="-6.275918,53.345865" type="3" value="0.94"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2713.00" end="2722.00" ego="veh613" foe="truck369">
+        <minTTC time="2716.50" position="-6.274770,53.348036" type="11" value="0.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2717.50" end="2722.50" ego="veh596" foe="bike341">
+        <minTTC time="2720.00" position="-6.280674,53.350528" type="11" value="1.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2713.00" end="2722.50" ego="veh613" foe="truck375">
+        <minTTC time="2716.50" position="-6.274770,53.348036" type="11" value="0.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2713.00" end="2726.50" ego="veh613" foe="bus181">
+        <minTTC time="2716.50" position="-6.274769,53.348036" type="11" value="0.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2713.00" end="2726.50" ego="veh613" foe="bus188">
+        <minTTC time="2716.50" position="-6.274769,53.348036" type="11" value="0.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2717.50" end="2726.50" ego="veh603" foe="bike373">
+        <minTTC time="2720.00" position="-6.282432,53.347064" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2708.50" end="2734.50" ego="veh567" foe="pt_bus_39:1.1">
+        <minTTC time="2710.00" position="-6.275837,53.345285" type="11" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2729.50" end="2735.00" ego="veh603" foe="veh526">
+        <minTTC time="2731.50" position="-6.282643,53.346410" type="11" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2729.00" end="2738.00" ego="veh526" foe="truck316">
+        <minTTC time="2730.50" position="-6.282456,53.346383" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2729.50" end="2738.00" ego="veh603" foe="truck316">
+        <minTTC time="2731.50" position="-6.282640,53.346412" type="11" value="0.84"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2699.00" end="2755.50" ego="veh584" foe="veh583">
+        <minTTC time="2722.00" position="-6.274530,53.350107" type="11" value="0.53"/>
+        <PET time="2754.58" position="-6.274419,53.350134" type="17" value="22.32"/>
+    </conflict>
+    <conflict begin="2740.00" end="2757.50" ego="veh526" foe="truck316">
+        <minTTC time="2742.50" position="-6.282619,53.346780" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2748.50" end="2757.50" ego="veh619" foe="bike373">
+        <minTTC time="2750.50" position="-6.280493,53.346666" type="3" value="1.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2701.50" end="2759.50" ego="veh584" foe="truck379">
+        <minTTC time="2722.00" position="-6.274534,53.350106" type="11" value="0.41"/>
+        <PET time="2758.33" position="-6.274419,53.350134" type="17" value="26.01"/>
+    </conflict>
+    <conflict begin="2710.50" end="2761.50" ego="veh584" foe="truck405">
+        <minTTC time="2722.00" position="-6.274534,53.350106" type="11" value="0.41"/>
+        <PET time="2760.32" position="-6.274419,53.350134" type="17" value="28.01"/>
+    </conflict>
+    <conflict begin="2756.00" end="2769.00" ego="veh600" foe="moto188">
+        <minTTC time="2758.50" position="-6.280229,53.346769" type="3" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2768.50" end="2780.50" ego="veh526" foe="truck316">
+        <minTTC time="2770.00" position="-6.282276,53.347829" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2692.00" end="2780.50" ego="veh585" foe="moto196">
+        <minTTC time="2693.00" position="-6.279778,53.348711" type="3" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2777.50" end="2791.50" ego="veh618" foe="bus207">
+        <minTTC time="2779.50" position="-6.274033,53.350799" type="3" value="1.38"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2729.50" end="2797.00" ego="veh584" foe="bike358">
+        <minTTC time="2778.00" position="-6.274047,53.350164" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2688.50" end="2812.50" ego="veh592" foe="bus192">
+        <minTTC time="2690.50" position="-6.271248,53.350301" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2801.50" end="2815.00" ego="veh610" foe="truck389">
+        <minTTC time="2804.00" position="-6.281686,53.348642" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2787.50" end="2817.50" ego="veh599" foe="pt_bus_67:0.4">
+        <minTTC time="2789.00" position="-6.268242,53.346017" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2776.50" end="2820.50" ego="veh616" foe="veh575">
+        <minTTC time="2784.50" position="-6.274669,53.349889" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2715.50" end="2722.00" ego="veh613" foe="moto182">
+        <minTTC time="2716.00" position="-6.274778,53.348031" type="11" value="0.59"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2715.50" end="2722.00" ego="veh613" foe="truck367">
+        <minTTC time="2716.50" position="-6.274770,53.348036" type="11" value="0.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2782.50" end="2822.50" ego="veh575" foe="veh616">
+        <minTTC time="2784.50" position="-6.274669,53.349889" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2820.00" end="2823.00" ego="veh640" foe="veh642">
+        <minTTC time="2820.50" position="-6.270574,53.350697" type="10" value="1.18"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2820.50" end="2824.50" ego="veh642" foe="veh640">
+        <minTTC time="2820.50" position="-6.270574,53.350697" type="11" value="1.18"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2822.00" end="2828.50" ego="veh618" foe="truck362">
+        <minTTC time="2827.00" position="-6.274530,53.350107" type="10" value="0.59"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2551.00" end="2848.50" ego="veh556" foe="truck372">
+        <minTTC time="2590.50" position="-6.274785,53.348158" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2592.00" end="2851.00" ego="veh538" foe="bus181">
+        <minTTC time="2757.50" position="-6.274758,53.348556" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2695.00" end="2855.50" ego="veh564" foe="moto200">
+        <minTTC time="2701.00" position="-6.275015,53.347217" type="3" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2732.50" end="2856.00" ego="veh576" foe="moto197">
+        <minTTC time="2733.00" position="-6.275198,53.346746" type="3" value="1.09"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2699.00" end="2861.50" ego="veh593" foe="truck401">
+        <minTTC time="2766.50" position="-6.272240,53.350223" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2070.00" end="2863.00" ego="veh458" foe="bus145">
+        <minTTC time="2073.50" position="-6.273454,53.348631" type="3" value="1.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2787.00" end="2856.50" ego="veh617" foe="bus199">
+        <minTTC time="2789.00" position="-6.275162,53.346849" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2868.50" end="2875.00" ego="veh564" foe="bus208">
+        <minTTC time="2870.00" position="-6.271949,53.348118" type="11" value="1.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2867.50" end="2876.00" ego="veh404" foe="veh614">
+        <minTTC time="2870.50" position="-6.273607,53.350121" type="11" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2840.00" end="2876.00" ego="veh619" foe="moto188">
+        <minTTC time="2842.00" position="-6.275230,53.346655" type="3" value="1.18"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2837.00" end="2877.00" ego="veh630" foe="truck414">
+        <minTTC time="2861.50" position="-6.279858,53.348581" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2844.00" end="2883.00" ego="veh634" foe="bus214">
+        <minTTC time="2853.00" position="-6.270253,53.346955" type="2" value="0.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2880.00" end="2884.50" ego="veh556" foe="bus207">
+        <minTTC time="2884.50" position="-6.274535,53.350106" type="13" value="0.78"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2860.50" end="2883.50" ego="veh584" foe="truck326">
+        <minTTC time="2869.50" position="-6.266686,53.350225" type="3" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2704.50" end="2890.50" ego="veh517" foe="truck344">
+        <minTTC time="2706.50" position="-6.276814,53.345462" type="3" value="1.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2890.50" end="2897.00" ego="veh647" foe="bus194">
+        <minTTC time="2892.50" position="-6.277533,53.349772" type="2" value="0.85"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2893.00" end="2897.50" ego="veh618" foe="truck437">
+        <minTTC time="2897.50" position="-6.277188,53.346584" type="13" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2880.00" end="2900.50" ego="veh556" foe="truck401">
+        <minTTC time="2886.00" position="-6.274534,53.350106" type="11" value="0.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2880.00" end="2904.00" ego="veh556" foe="bus200">
+        <minTTC time="2886.00" position="-6.274535,53.350106" type="11" value="0.37"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2887.50" end="2895.00" ego="veh556" foe="truck416">
+        <minTTC time="2894.50" position="-6.274534,53.350106" type="13" value="0.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2870.00" end="2912.00" ego="veh592" foe="bus203">
+        <minTTC time="2872.00" position="-6.272912,53.350144" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2899.50" end="2915.00" ego="veh639" foe="truck434">
+        <minTTC time="2901.50" position="-6.274780,53.350735" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2693.00" end="2919.00" ego="veh591" foe="truck397">
+        <minTTC time="2695.50" position="-6.272475,53.349841" type="3" value="1.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2870.00" end="2911.50" ego="veh591" foe="bus192">
+        <minTTC time="2875.00" position="-6.272400,53.350204" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2039.50" end="2046.50" ego="veh434" foe="bike278">
+        <minTTC time="2041.50" position="-6.273311,53.348050" type="10" value="2.95"/>
+        <PET time="2044.54" position="-6.273311,53.348050" type="17" value="0.86"/>
+    </conflict>
+    <conflict begin="2926.00" end="2934.50" ego="veh633" foe="veh434">
+        <minTTC time="2930.50" position="-6.273600,53.349869" type="11" value="1.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2928.00" end="2935.00" ego="veh434" foe="veh633">
+        <minTTC time="2930.50" position="-6.273600,53.349869" type="10" value="1.32"/>
+        <PET time="2933.36" position="-6.273600,53.349869" type="17" value="1.37"/>
+    </conflict>
+    <conflict begin="2695.00" end="2937.50" ego="veh604" foe="truck388">
+        <minTTC time="2697.00" position="-6.272824,53.348064" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2916.50" end="2938.00" ego="veh604" foe="bike408">
+        <minTTC time="2920.50" position="-6.273153,53.348056" type="3" value="1.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2768.00" end="2943.50" ego="veh620" foe="truck402">
+        <minTTC time="2769.50" position="-6.273015,53.347166" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2931.50" end="2943.50" ego="veh620" foe="bike408">
+        <minTTC time="2938.50" position="-6.273281,53.348057" type="10" value="0.83"/>
+        <PET time="2941.75" position="-6.273281,53.348057" type="17" value="1.57"/>
+    </conflict>
+    <conflict begin="2931.50" end="2937.50" ego="veh620" foe="veh604">
+        <minTTC time="2934.00" position="-6.273299,53.348043" type="11" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2937.00" end="2946.00" ego="veh666" foe="bike403">
+        <minTTC time="2940.50" position="-6.282765,53.346905" type="3" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2780.00" end="2951.00" ego="veh611" foe="bike376">
+        <minTTC time="2783.50" position="-6.272412,53.349329" type="3" value="0.98"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2948.50" end="2957.00" ego="veh660" foe="bus209">
+        <minTTC time="2950.50" position="-6.267152,53.349988" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2719.00" end="2960.00" ego="veh615" foe="truck408">
+        <minTTC time="2720.50" position="-6.270249,53.346934" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2956.00" end="2964.50" ego="veh656" foe="bus192">
+        <minTTC time="2960.00" position="-6.277545,53.349770" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2965.50" end="2972.50" ego="veh639" foe="veh632">
+        <minTTC time="2972.00" position="-6.274634,53.349843" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2964.00" end="2974.00" ego="veh676" foe="bike412">
+        <minTTC time="2965.50" position="-6.282548,53.346850" type="11" value="1.05"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2964.00" end="2974.00" ego="veh676" foe="pt_bus_25A:1.4">
+        <minTTC time="2965.00" position="-6.282541,53.346870" type="11" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2969.00" end="2972.50" ego="veh632" foe="veh639">
+        <minTTC time="2972.00" position="-6.274647,53.349840" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2922.50" end="2976.50" ego="veh655" foe="bus219">
+        <minTTC time="2923.50" position="-6.274896,53.349544" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2879.50" end="2978.00" ego="veh641" foe="truck375">
+        <minTTC time="2892.50" position="-6.274693,53.349738" type="3" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2959.50" end="2976.50" ego="veh641" foe="bike384">
+        <minTTC time="2966.00" position="-6.274522,53.350109" type="11" value="0.67"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2959.50" end="2978.00" ego="veh641" foe="truck399">
+        <minTTC time="2966.50" position="-6.274534,53.350106" type="11" value="0.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2959.50" end="2976.00" ego="veh641" foe="veh435">
+        <minTTC time="2966.50" position="-6.274530,53.350107" type="11" value="0.52"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2938.50" end="2981.00" ego="veh653" foe="bus203">
+        <minTTC time="2944.50" position="-6.276831,53.349839" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2974.00" end="2983.50" ego="veh655" foe="bike384">
+        <minTTC time="2978.50" position="-6.274522,53.350109" type="11" value="0.75"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2974.00" end="2983.50" ego="veh655" foe="veh435">
+        <minTTC time="2978.50" position="-6.274530,53.350107" type="11" value="0.65"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2985.00" end="2985.50" ego="veh639" foe="bus190">
+        <minTTC time="2985.50" position="-6.274742,53.348020" type="13" value="1.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2984.00" end="2993.00" ego="veh657" foe="truck442">
+        <minTTC time="2985.50" position="-6.271945,53.345028" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2942.00" end="2994.00" ego="veh608" foe="moto191">
+        <minTTC time="2945.50" position="-6.279810,53.348577" type="3" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2996.50" end="3001.00" ego="veh682" foe="truck454">
+        <minTTC time="2999.00" position="-6.283387,53.351858" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2975.00" end="3002.00" ego="veh631" foe="truck449">
+        <minTTC time="2977.00" position="-6.268111,53.346561" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2995.50" end="3004.00" ego="veh665" foe="moto222">
+        <minTTC time="2997.00" position="-6.271271,53.350214" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2700.50" end="2923.50" ego="veh582" foe="moto205">
+        <minTTC time="2703.00" position="-6.273181,53.347650" type="3" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2922.50" end="3009.50" ego="veh648" foe="truck445">
+        <minTTC time="2926.00" position="-6.272274,53.345250" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2974.00" end="3011.50" ego="veh604" foe="bike418">
+        <minTTC time="2975.50" position="-6.273507,53.348043" type="3" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2932.50" end="3013.00" ego="veh649" foe="bus220">
+        <minTTC time="2934.00" position="-6.274747,53.350735" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2997.50" end="3014.50" ego="veh663" foe="truck434">
+        <minTTC time="3003.50" position="-6.274175,53.350469" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3005.50" end="3015.00" ego="veh684" foe="bus217">
+        <minTTC time="3011.00" position="-6.270011,53.346317" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3004.50" end="3015.50" ego="veh656" foe="truck372">
+        <minTTC time="3006.50" position="-6.279331,53.349809" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2788.50" end="3017.00" ego="veh625" foe="bike382">
+        <minTTC time="2947.50" position="-6.272824,53.348064" type="3" value="0.94"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3032.50" end="3036.50" ego="veh687" foe="truck401">
+        <minTTC time="3034.00" position="-6.282423,53.347409" type="11" value="1.36"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3032.00" end="3044.50" ego="veh604" foe="bike360">
+        <minTTC time="3039.00" position="-6.275514,53.345866" type="11" value="0.19"/>
+        <PET time="3042.24" position="-6.275514,53.345866" type="17" value="2.21"/>
+    </conflict>
+    <conflict begin="2949.00" end="3052.50" ego="veh611" foe="bike371">
+        <minTTC time="3001.00" position="-6.273420,53.350118" type="3" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3047.50" end="3053.50" ego="veh649" foe="bike374">
+        <minTTC time="3049.00" position="-6.276259,53.348819" type="7" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2893.00" end="2952.50" ego="veh622" foe="bus198">
+        <minTTC time="2895.00" position="-6.272274,53.348843" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2954.50" end="3049.50" ego="veh611" foe="truck409">
+        <minTTC time="2956.50" position="-6.272920,53.350144" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3072.50" end="3080.50" ego="veh690" foe="veh642">
+        <minTTC time="3074.50" position="-6.271945,53.348117" type="11" value="1.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3064.50" end="3081.00" ego="veh646" foe="bus217">
+        <minTTC time="3066.50" position="-6.271570,53.348163" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3072.50" end="3083.50" ego="veh690" foe="truck418">
+        <minTTC time="3074.50" position="-6.271949,53.348118" type="11" value="1.27"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2943.00" end="2999.50" ego="veh626" foe="bike365">
+        <minTTC time="2996.50" position="-6.273322,53.348047" type="11" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3087.50" end="3092.50" ego="veh658" foe="bus222">
+        <minTTC time="3088.00" position="-6.273311,53.351305" type="2" value="1.19"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2872.00" end="2942.50" ego="veh642" foe="bike383">
+        <minTTC time="2876.50" position="-6.271860,53.349000" type="3" value="0.88"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="2996.50" end="3105.50" ego="veh678" foe="truck450">
+        <minTTC time="3033.00" position="-6.274621,53.350006" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3069.00" end="3108.00" ego="veh672" foe="truck435">
+        <minTTC time="3074.50" position="-6.274175,53.350469" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3104.00" end="3108.50" ego="veh690" foe="truck451">
+        <minTTC time="3106.00" position="-6.270287,53.347074" type="11" value="0.99"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3089.50" end="3108.50" ego="veh697" foe="truck455">
+        <minTTC time="3091.50" position="-6.268143,53.346645" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3111.00" end="3117.00" ego="veh710" foe="veh686">
+        <minTTC time="3115.50" position="-6.277192,53.346582" type="11" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3110.00" end="3117.50" ego="veh707" foe="bus204">
+        <minTTC time="3114.00" position="-6.280065,53.347768" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3068.00" end="3112.00" ego="veh434" foe="truck441">
+        <minTTC time="3070.50" position="-6.281201,53.348598" type="3" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3110.50" end="3115.50" ego="veh674" foe="bus219">
+        <minTTC time="3113.00" position="-6.274500,53.350123" type="11" value="1.29"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3107.50" end="3119.00" ego="veh699" foe="pt_bus_25:0.5">
+        <minTTC time="3109.00" position="-6.267425,53.345333" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3109.50" end="3121.50" ego="veh538" foe="truck372">
+        <minTTC time="3111.00" position="-6.282457,53.346983" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3113.00" end="3117.00" ego="veh686" foe="veh710">
+        <minTTC time="3115.50" position="-6.277192,53.346582" type="10" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3120.50" end="3124.50" ego="veh674" foe="moto192">
+        <minTTC time="3124.00" position="-6.274689,53.349150" type="111" value="0.00"/>
+        <PET time="3123.59" position="-6.274689,53.349150" type="111" value="0.00"/>
+    </conflict>
+    <conflict begin="3092.50" end="3120.50" ego="veh622" foe="bus232">
+        <minTTC time="3094.00" position="-6.274078,53.350809" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3110.50" end="3132.50" ego="veh697" foe="truck455">
+        <minTTC time="3114.00" position="-6.267592,53.345407" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3019.00" end="3140.00" ego="veh679" foe="truck458">
+        <minTTC time="3022.00" position="-6.272240,53.350223" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3134.50" end="3144.00" ego="veh695" foe="bus204">
+        <minTTC time="3136.50" position="-6.282145,53.347390" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3099.00" end="3149.00" ego="veh648" foe="truck432">
+        <minTTC time="3100.50" position="-6.274531,53.348306" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3177.00" end="3182.50" ego="veh703" foe="bus239">
+        <minTTC time="3178.50" position="-6.275918,53.345865" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3143.00" end="3186.00" ego="veh689" foe="pt_bus_145:1.3">
+        <minTTC time="3145.00" position="-6.276500,53.345398" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3183.50" end="3187.50" ego="veh725" foe="veh688">
+        <minTTC time="3185.00" position="-6.273311,53.348050" type="11" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3042.00" end="3190.50" ego="veh679" foe="bike367">
+        <minTTC time="3145.00" position="-6.273891,53.350138" type="3" value="0.95"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3183.00" end="3195.00" ego="veh688" foe="veh725">
+        <minTTC time="3185.00" position="-6.273311,53.348050" type="10" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3154.00" end="3195.50" ego="veh712" foe="moto238">
+        <minTTC time="3155.50" position="-6.266815,53.350158" type="3" value="1.36"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3187.50" end="3196.00" ego="veh699" foe="veh725">
+        <minTTC time="3189.50" position="-6.273318,53.348043" type="11" value="1.39"/>
+        <PET time="3193.74" position="-6.273311,53.348050" type="17" value="1.50"/>
+    </conflict>
+    <conflict begin="3194.50" end="3201.00" ego="veh711" foe="bus222">
+        <minTTC time="3197.50" position="-6.277525,53.349772" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3172.50" end="3202.50" ego="veh723" foe="moto214">
+        <minTTC time="3180.50" position="-6.280493,53.346666" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3193.50" end="3208.00" ego="veh715" foe="truck447">
+        <minTTC time="3199.50" position="-6.274175,53.350469" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3105.00" end="3213.50" ego="veh682" foe="bike393">
+        <minTTC time="3109.00" position="-6.274623,53.350732" type="3" value="0.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3188.50" end="3213.50" ego="veh708" foe="truck475">
+        <minTTC time="3189.00" position="-6.272280,53.345478" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3211.50" end="3217.50" ego="veh724" foe="veh682">
+        <minTTC time="3215.50" position="-6.274525,53.350088" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3199.00" end="3218.50" ego="veh646" foe="bus217">
+        <minTTC time="3201.00" position="-6.276779,53.349379" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3211.50" end="3217.50" ego="veh682" foe="veh724">
+        <minTTC time="3215.50" position="-6.274525,53.350088" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3053.50" end="3247.00" ego="veh683" foe="moto224">
+        <minTTC time="3055.00" position="-6.272240,53.350223" type="3" value="1.17"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3212.00" end="3222.00" ego="veh716" foe="truck477">
+        <minTTC time="3214.00" position="-6.274439,53.348001" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3221.50" end="3251.50" ego="veh646" foe="bus217">
+        <minTTC time="3224.00" position="-6.276888,53.349730" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3249.00" end="3254.00" ego="veh740" foe="truck475">
+        <minTTC time="3250.50" position="-6.273307,53.348051" type="11" value="1.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3166.00" end="3259.50" ego="veh704" foe="bike442">
+        <minTTC time="3169.50" position="-6.274796,53.350736" type="3" value="0.94"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3198.50" end="3235.00" ego="veh710" foe="bike413">
+        <minTTC time="3202.00" position="-6.271238,53.345623" type="3" value="0.90"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3271.50" end="3277.50" ego="veh731" foe="bus240">
+        <minTTC time="3275.00" position="-6.268804,53.348429" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3277.00" end="3279.50" ego="veh721" foe="truck453">
+        <minTTC time="3277.50" position="-6.275281,53.346466" type="12" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3261.00" end="3280.50" ego="veh712" foe="truck492">
+        <minTTC time="3263.00" position="-6.274042,53.350873" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3090.50" end="3249.00" ego="veh701" foe="bus234">
+        <minTTC time="3204.00" position="-6.272240,53.350223" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3279.00" end="3289.50" ego="veh735" foe="bike457">
+        <minTTC time="3283.00" position="-6.266815,53.350158" type="3" value="0.90"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3180.50" end="3297.00" ego="veh648" foe="truck432">
+        <minTTC time="3182.50" position="-6.276848,53.349602" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3275.00" end="3299.50" ego="veh703" foe="bike441">
+        <minTTC time="3279.00" position="-6.268302,53.346009" type="3" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3256.50" end="3302.00" ego="veh709" foe="moto244">
+        <minTTC time="3258.50" position="-6.277681,53.349611" type="3" value="1.10"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3170.00" end="3312.00" ego="veh717" foe="bus230">
+        <minTTC time="3172.00" position="-6.271360,53.348593" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3307.00" end="3322.50" ego="veh745" foe="bike458">
+        <minTTC time="3311.50" position="-6.282765,53.346905" type="3" value="0.88"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3317.00" end="3322.50" ego="veh757" foe="veh676">
+        <minTTC time="3320.00" position="-6.274654,53.349927" type="7" value="0.98"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3175.50" end="3323.00" ego="veh686" foe="truck478">
+        <minTTC time="3177.50" position="-6.275221,53.349497" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3317.00" end="3325.50" ego="veh757" foe="veh686">
+        <minTTC time="3323.00" position="-6.274665,53.349897" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3305.50" end="3329.00" ego="veh703" foe="bike441">
+        <minTTC time="3311.00" position="-6.267592,53.345407" type="3" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3265.00" end="3329.50" ego="veh715" foe="pt_bus_25:0.4">
+        <minTTC time="3266.50" position="-6.275837,53.345285" type="11" value="1.30"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3316.00" end="3330.00" ego="veh739" foe="bus244">
+        <minTTC time="3318.00" position="-6.275918,53.345865" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3317.00" end="3335.50" ego="veh676" foe="veh757">
+        <minTTC time="3320.00" position="-6.274654,53.349927" type="6" value="0.98"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3307.50" end="3314.50" ego="veh743" foe="truck497">
+        <minTTC time="3311.00" position="-6.281688,53.350042" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3263.50" end="3340.50" ego="veh732" foe="bus224">
+        <minTTC time="3313.00" position="-6.274586,53.350068" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3290.00" end="3323.50" ego="veh732" foe="truck490">
+        <minTTC time="3292.00" position="-6.274429,53.349836" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3304.00" end="3318.00" ego="veh732" foe="bus218">
+        <minTTC time="3310.00" position="-6.274502,53.350121" type="10" value="5.57"/>
+        <PET time="3315.36" position="-6.274535,53.350106" type="111" value="0.00"/>
+    </conflict>
+    <conflict begin="3304.00" end="3329.50" ego="veh732" foe="truck452">
+        <minTTC time="3310.50" position="-6.274534,53.350106" type="11" value="0.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3304.00" end="3325.50" ego="veh732" foe="truck460">
+        <minTTC time="3310.50" position="-6.274534,53.350106" type="11" value="0.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3347.00" end="3358.50" ego="veh744" foe="truck495">
+        <minTTC time="3349.00" position="-6.275918,53.345865" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3082.50" end="3365.50" ego="veh657" foe="truck442">
+        <minTTC time="3158.50" position="-6.271423,53.349857" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3328.00" end="3347.00" ego="veh741" foe="bus251">
+        <minTTC time="3342.50" position="-6.282307,53.347464" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3328.50" end="3350.50" ego="veh741" foe="bike458">
+        <minTTC time="3332.50" position="-6.282416,53.347274" type="3" value="0.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3328.00" end="3375.00" ego="veh727" foe="moto253">
+        <minTTC time="3345.50" position="-6.280229,53.346769" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3362.50" end="3376.00" ego="veh709" foe="truck484">
+        <minTTC time="3366.00" position="-6.282075,53.347383" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3377.50" end="3382.00" ego="veh765" foe="bus249">
+        <minTTC time="3379.50" position="-6.273316,53.348040" type="11" value="1.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3377.50" end="3385.50" ego="veh765" foe="bike448">
+        <minTTC time="3379.50" position="-6.273322,53.348047" type="11" value="1.48"/>
+        <PET time="3383.18" position="-6.273311,53.348050" type="17" value="1.89"/>
+    </conflict>
+    <conflict begin="3034.00" end="3388.00" ego="veh620" foe="moto231">
+        <minTTC time="3324.50" position="-6.272478,53.350080" type="3" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3380.00" end="3388.50" ego="veh752" foe="bike449">
+        <minTTC time="3382.50" position="-6.271945,53.345028" type="3" value="1.27"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3096.00" end="3325.00" ego="veh705" foe="moto231">
+        <minTTC time="3097.00" position="-6.272332,53.348982" type="2" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3165.00" end="3322.50" ego="veh705" foe="bike417">
+        <minTTC time="3170.50" position="-6.272345,53.349024" type="3" value="0.95"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3251.00" end="3384.50" ego="veh701" foe="bus234">
+        <minTTC time="3298.00" position="-6.272770,53.350159" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3279.50" end="3399.00" ego="veh688" foe="truck475">
+        <minTTC time="3281.50" position="-6.274255,53.349504" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3395.50" end="3402.50" ego="veh724" foe="pt_bus_25B:0.5">
+        <minTTC time="3399.00" position="-6.267528,53.345347" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3373.00" end="3403.00" ego="veh761" foe="bus235">
+        <minTTC time="3403.00" position="-6.274520,53.350178" type="13" value="0.76"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3351.00" end="3406.50" ego="veh688" foe="truck500">
+        <minTTC time="3353.00" position="-6.274703,53.349608" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3399.00" end="3416.00" ego="veh724" foe="pt_bus_79A:0.4">
+        <minTTC time="3401.50" position="-6.267592,53.345407" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3411.00" end="3417.00" ego="veh737" foe="truck481">
+        <minTTC time="3412.50" position="-6.276674,53.348007" type="2" value="1.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3402.50" end="3421.50" ego="veh775" foe="bike469">
+        <minTTC time="3404.50" position="-6.272248,53.348895" type="7" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3372.50" end="3422.00" ego="veh745" foe="moto253">
+        <minTTC time="3403.00" position="-6.275139,53.346915" type="3" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3412.50" end="3424.00" ego="veh646" foe="bus190">
+        <minTTC time="3414.50" position="-6.281732,53.349893" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3416.50" end="3424.00" ego="veh737" foe="bus249">
+        <minTTC time="3420.50" position="-6.276614,53.348009" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3301.50" end="3427.50" ego="veh738" foe="truck378">
+        <minTTC time="3401.00" position="-6.281686,53.348642" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3420.00" end="3428.00" ego="veh737" foe="truck491">
+        <minTTC time="3424.00" position="-6.276690,53.348005" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3416.00" end="3434.50" ego="veh779" foe="truck520">
+        <minTTC time="3426.00" position="-6.271541,53.346759" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3417.00" end="3443.50" ego="veh771" foe="bus253">
+        <minTTC time="3419.00" position="-6.270249,53.346934" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3342.50" end="3444.00" ego="veh620" foe="bus236">
+        <minTTC time="3399.50" position="-6.272801,53.350155" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3445.00" end="3452.50" ego="veh783" foe="truck505">
+        <minTTC time="3446.50" position="-6.273299,53.348040" type="11" value="1.23"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3442.50" end="3459.50" ego="veh752" foe="truck509">
+        <minTTC time="3444.00" position="-6.274553,53.347997" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3392.00" end="3471.00" ego="veh681" foe="bike388">
+        <minTTC time="3441.00" position="-6.273883,53.350138" type="3" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3453.00" end="3473.00" ego="veh763" foe="truck508">
+        <minTTC time="3459.50" position="-6.271944,53.345028" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3442.00" end="3482.50" ego="veh778" foe="truck498">
+        <minTTC time="3443.50" position="-6.271928,53.348236" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3476.50" end="3483.50" ego="veh743" foe="truck517">
+        <minTTC time="3478.00" position="-6.267620,53.345324" type="11" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3476.50" end="3483.50" ego="veh743" foe="truck521">
+        <minTTC time="3478.50" position="-6.267635,53.345353" type="11" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3364.00" end="3458.00" ego="veh717" foe="bus230">
+        <minTTC time="3367.00" position="-6.271480,53.349611" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3481.50" end="3491.00" ego="veh787" foe="veh768">
+        <minTTC time="3483.50" position="-6.273318,53.348043" type="11" value="1.38"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3482.50" end="3486.00" ego="veh787" foe="bike485">
+        <minTTC time="3483.50" position="-6.273322,53.348047" type="11" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3402.50" end="3492.00" ego="veh768" foe="truck506">
+        <minTTC time="3409.00" position="-6.270286,53.347093" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3487.00" end="3494.00" ego="veh783" foe="bus265">
+        <minTTC time="3491.00" position="-6.268757,53.348441" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3447.50" end="3465.50" ego="veh767" foe="truck502">
+        <minTTC time="3449.50" position="-6.274739,53.349087" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3099.50" end="3525.50" ego="veh684" foe="truck446">
+        <minTTC time="3444.00" position="-6.272240,53.350223" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3511.00" end="3525.50" ego="veh787" foe="veh684">
+        <minTTC time="3520.00" position="-6.273590,53.350126" type="10" value="1.42"/>
+        <PET time="3524.03" position="-6.273590,53.350126" type="17" value="1.92"/>
+    </conflict>
+    <conflict begin="3391.50" end="3529.50" ego="veh772" foe="truck442">
+        <minTTC time="3393.50" position="-6.274078,53.350809" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3389.00" end="3532.50" ego="veh705" foe="bus236">
+        <minTTC time="3398.00" position="-6.272398,53.350204" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3501.00" end="3534.00" ego="veh775" foe="truck497">
+        <minTTC time="3503.00" position="-6.268540,53.347323" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3477.50" end="3535.00" ego="veh684" foe="bike419">
+        <minTTC time="3522.50" position="-6.273469,53.350117" type="3" value="1.26"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3512.00" end="3524.50" ego="veh684" foe="veh787">
+        <minTTC time="3520.00" position="-6.273590,53.350126" type="11" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3477.00" end="3539.50" ego="veh763" foe="truck508">
+        <minTTC time="3534.50" position="-6.274513,53.347998" type="3" value="1.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3331.00" end="3524.50" ego="veh751" foe="truck503">
+        <minTTC time="3332.50" position="-6.271299,53.350035" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3506.50" end="3553.00" ego="veh774" foe="pt_bus_39a:1.5">
+        <minTTC time="3508.00" position="-6.275918,53.345865" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3337.50" end="3555.50" ego="veh754" foe="truck479">
+        <minTTC time="3518.50" position="-6.274698,53.349670" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3370.50" end="3513.00" ego="veh754" foe="bike445">
+        <minTTC time="3374.50" position="-6.275179,53.349503" type="3" value="0.86"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3503.50" end="3564.00" ego="veh790" foe="truck529">
+        <minTTC time="3549.50" position="-6.274457,53.350209" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3546.00" end="3555.50" ego="veh790" foe="veh754">
+        <minTTC time="3548.00" position="-6.274524,53.350176" type="11" value="0.59"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3551.00" end="3559.50" ego="veh790" foe="truck479">
+        <minTTC time="3559.00" position="-6.274572,53.350152" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3557.50" end="3569.00" ego="veh721" foe="bike419">
+        <minTTC time="3563.00" position="-6.274522,53.350109" type="11" value="0.71"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3555.50" end="3571.50" ego="veh761" foe="bike468">
+        <minTTC time="3559.00" position="-6.281732,53.349893" type="3" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3588.50" end="3592.50" ego="veh761" foe="bus272">
+        <minTTC time="3592.50" position="-6.283902,53.349888" type="13" value="0.99"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3591.50" end="3598.50" ego="veh806" foe="bike473">
+        <minTTC time="3593.50" position="-6.273322,53.348047" type="11" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3591.50" end="3601.00" ego="veh806" foe="bike482">
+        <minTTC time="3593.50" position="-6.273322,53.348047" type="11" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3591.50" end="3596.50" ego="veh806" foe="veh781">
+        <minTTC time="3593.50" position="-6.273318,53.348043" type="11" value="1.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3591.50" end="3596.00" ego="veh806" foe="veh800">
+        <minTTC time="3593.50" position="-6.273318,53.348043" type="11" value="1.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3586.50" end="3604.00" ego="veh811" foe="truck543">
+        <minTTC time="3588.00" position="-6.268441,53.347440" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3575.00" end="3597.00" ego="veh804" foe="bike477">
+        <minTTC time="3593.50" position="-6.281685,53.350040" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3549.00" end="3608.00" ego="veh769" foe="truck508">
+        <minTTC time="3551.00" position="-6.274744,53.348934" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3602.50" end="3609.50" ego="veh816" foe="bus252">
+        <minTTC time="3606.00" position="-6.277676,53.349755" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3609.00" end="3618.50" ego="veh821" foe="veh800">
+        <minTTC time="3611.00" position="-6.273318,53.348043" type="11" value="1.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3556.50" end="3623.00" ego="veh800" foe="moto268">
+        <minTTC time="3613.00" position="-6.273153,53.348056" type="3" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3489.00" end="3633.00" ego="veh789" foe="moto255">
+        <minTTC time="3491.00" position="-6.272085,53.348549" type="3" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3564.00" end="3633.50" ego="veh747" foe="moto256">
+        <minTTC time="3565.50" position="-6.279817,53.348752" type="3" value="1.05"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3618.50" end="3634.50" ego="veh820" foe="truck548">
+        <minTTC time="3628.00" position="-6.272477,53.349978" type="111" value="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3359.50" end="3636.00" ego="veh718" foe="bus237">
+        <minTTC time="3361.50" position="-6.275769,53.345435" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3611.00" end="3637.00" ego="veh819" foe="truck538">
+        <minTTC time="3613.00" position="-6.276088,53.345888" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3625.00" end="3639.50" ego="veh767" foe="bike502">
+        <minTTC time="3630.00" position="-6.279810,53.348577" type="3" value="1.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3609.50" end="3645.00" ego="veh769" foe="truck508">
+        <minTTC time="3612.50" position="-6.274621,53.350006" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3575.00" end="3649.50" ego="veh803" foe="moto271">
+        <minTTC time="3577.50" position="-6.279739,53.349762" type="3" value="1.23"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3581.00" end="3661.00" ego="veh807" foe="truck515">
+        <minTTC time="3587.00" position="-6.275175,53.346532" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3652.00" end="3663.00" ego="veh752" foe="truck471">
+        <minTTC time="3654.00" position="-6.281732,53.349893" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3666.00" end="3673.00" ego="veh767" foe="veh822">
+        <minTTC time="3667.50" position="-6.282299,53.347411" type="11" value="1.36"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3550.50" end="3592.50" ego="veh719" foe="pt_bus_37:0.2">
+        <minTTC time="3553.00" position="-6.277412,53.345579" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3591.00" end="3685.00" ego="veh809" foe="bike494">
+        <minTTC time="3639.00" position="-6.271158,53.348214" type="3" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3670.50" end="3688.00" ego="veh804" foe="truck541">
+        <minTTC time="3672.50" position="-6.280229,53.346769" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3685.00" end="3696.00" ego="veh767" foe="bike487">
+        <minTTC time="3689.00" position="-6.282145,53.347390" type="3" value="0.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3663.00" end="3715.50" ego="veh803" foe="bus269">
+        <minTTC time="3664.50" position="-6.276071,53.345856" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3669.50" end="3711.00" ego="veh811" foe="truck543">
+        <minTTC time="3677.50" position="-6.270757,53.348215" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3146.50" end="3757.50" ego="veh668" foe="truck449">
+        <minTTC time="3150.50" position="-6.271466,53.349298" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3510.00" end="3780.50" ego="veh774" foe="moto262">
+        <minTTC time="3521.00" position="-6.275918,53.345865" type="3" value="1.04"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3640.00" end="3785.00" ego="veh821" foe="truck542">
+        <minTTC time="3732.50" position="-6.273573,53.349451" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3566.50" end="3793.50" ego="veh792" foe="bike467">
+        <minTTC time="3786.00" position="-6.274175,53.350469" type="3" value="0.90"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3790.00" end="3796.00" ego="veh821" foe="moto259">
+        <minTTC time="3794.50" position="-6.274578,53.350105" type="13" value="0.14"/>
+        <PET time="3794.63" position="-6.274578,53.350105" type="111" value="0.00"/>
+    </conflict>
+    <conflict begin="3794.00" end="3796.00" ego="veh821" foe="moto268">
+        <minTTC time="3794.00" position="-6.274578,53.350105" type="11" value="0.74"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3728.00" end="3801.00" ego="veh811" foe="truck543">
+        <minTTC time="3731.00" position="-6.272824,53.348064" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3791.00" end="3802.00" ego="veh808" foe="truck533">
+        <minTTC time="3792.50" position="-6.281732,53.349893" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3762.00" end="3803.50" ego="veh822" foe="bike505">
+        <minTTC time="3764.50" position="-6.276130,53.345893" type="3" value="1.12"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3771.50" end="3809.50" ego="veh822" foe="truck544">
+        <minTTC time="3773.00" position="-6.276130,53.345893" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3650.50" end="3811.50" ego="veh794" foe="truck512">
+        <minTTC time="3652.50" position="-6.272105,53.348591" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3783.50" end="3822.50" ego="veh806" foe="truck530">
+        <minTTC time="3786.50" position="-6.273883,53.350138" type="3" value="1.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3784.50" end="3843.00" ego="veh814" foe="truck548">
+        <minTTC time="3786.50" position="-6.279858,53.348581" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3693.00" end="3853.00" ego="veh796" foe="bike477">
+        <minTTC time="3704.00" position="-6.275598,53.350731" type="3" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3717.00" end="3824.00" ego="veh801" foe="pt_bus_39a:0.4">
+        <minTTC time="3723.00" position="-6.277920,53.345675" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3611.00" end="3882.50" ego="veh799" foe="pt_bus_69x:0.5">
+        <minTTC time="3612.00" position="-6.273586,53.345054" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3752.00" end="3895.50" ego="veh812" foe="bike496">
+        <minTTC time="3756.00" position="-6.273378,53.348158" type="3" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3823.50" end="3901.00" ego="veh715" foe="pt_bus_66b:0.5">
+        <minTTC time="3829.50" position="-6.277920,53.345675" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3920.50" end="3944.00" ego="veh815" foe="truck543">
+        <minTTC time="3921.50" position="-6.274429,53.349836" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3924.00" end="3960.50" ego="veh811" foe="truck523">
+        <minTTC time="3926.50" position="-6.273883,53.350138" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3833.00" end="3877.00" ego="veh818" foe="bike471">
+        <minTTC time="3837.00" position="-6.275904,53.345863" type="3" value="0.95"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3665.50" end="3974.00" ego="veh807" foe="truck515">
+        <minTTC time="3667.50" position="-6.275341,53.346192" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3654.00" end="4065.00" ego="veh727" foe="bus234">
+        <minTTC time="3655.50" position="-6.275755,53.345467" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3959.00" end="4065.00" ego="veh727" foe="pt_bus_79A:0.4">
+        <minTTC time="4029.50" position="-6.275837,53.345285" type="11" value="1.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3998.00" end="4065.00" ego="veh727" foe="pt_bus_145:1.5">
+        <minTTC time="4029.50" position="-6.275837,53.345285" type="11" value="1.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3822.50" end="4133.00" ego="veh791" foe="moto271">
+        <minTTC time="3823.00" position="-6.273433,53.345042" type="3" value="1.09"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3963.00" end="4300.00" ego="veh766" foe="veh816">
+        <minTTC time="3964.50" position="-6.275649,53.345710" type="2" value="0.99"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="3963.00" end="4304.00" ego="veh816" foe="veh766">
+        <minTTC time="3964.50" position="-6.275649,53.345710" type="3" value="0.99"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="4335.50" end="4373.00" ego="veh759" foe="pt_bus_69x:0.5">
+        <minTTC time="4337.50" position="-6.277412,53.345579" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="4033.00" end="4432.50" ego="veh766" foe="truck515">
+        <minTTC time="4359.50" position="-6.276295,53.345357" type="3" value="1.44"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+</SSMLog>
