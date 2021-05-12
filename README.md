@@ -7,8 +7,9 @@ The code used to generate and evaluate SUMO scenarios for measuring the safety a
 A single simulation can be run by navigating to `DublinSimulation/DublinCity/run.bat` or `NorthDublinSimulation/NorthDublinSection/run.bat`.
 This will launch the larger or smaller simulation environment, given the [SUMO Simulator](https://sumo.dlr.de/docs/index.html) is installed.
 
-The simulations consist of sections of Dublin city built from OpenStreetMaps data.
-The simulation environments can be seen below:
+The simulations consist of sections of Dublin city built from OpenStreetMaps data, useful resources to accomplish this are [Using OSMWebWizard](https://sumo.dlr.de/docs/Tutorials/OSMWebWizard.html) and [Data Cleaning with JOSM](https://toolbox.hotosm.org/pages/data-cleaning-upload-and-quality-assurance/5.1-data-cleaning-with-josm/).
+
+The two simulation environments can be seen below:
 
 ### NorthDublinSection
 ![bigViewNorth](https://user-images.githubusercontent.com/30498489/118026956-52f23b80-b359-11eb-84fd-e4089f5fbd45.png)
